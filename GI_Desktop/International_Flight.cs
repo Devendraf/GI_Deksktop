@@ -337,6 +337,10 @@ namespace GI_Desktop
             repo.OnlineFlightBookingHotelsBusAmp.Adulttitle1.Element.SetAttributeValue("TagValue", "1");
             Delay.Milliseconds(100);
             
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '1' on item 'OnlineFlightBookingHotelsBusAmp.Adulttitle1'.", repo.OnlineFlightBookingHotelsBusAmp.Adulttitle1Info, new RecordItemIndex(64));
+            repo.OnlineFlightBookingHotelsBusAmp.Adulttitle1.Element.SetAttributeValue("TagValue", "1");
+            Delay.Milliseconds(100);
+            
         }
 
 #region Image Feature Data
