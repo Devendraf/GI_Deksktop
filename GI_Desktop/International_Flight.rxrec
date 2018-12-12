@@ -4508,7 +4508,7 @@ oooAKKKKAIbw/wCjOP73yn6HipqKKfQXUhiOLmZexw344x/SpqKKGCCiiikMKKKKACiiigD/2Q==
 			<bindings>
 			</bindings>
 			<info
-			id="d29ace03-4600-4d57-aaee-266161f8606f"
+			id="b930e259-7149-4aa7-96e4-c04be9e60fb7"
 			sourcename="Recorder">
 				<element
 				capabilities=""
@@ -8562,6 +8562,120 @@ f3rRhhhTDxRIhI6hQDinmKM4zGp29MjpTqErClO6sgoooqiAooooAKKKKACiiigAooooA//Z
 		enabled="False"
 		optional="False"
 		searchpropertyid="50431322-2e98-47df-b38e-eb446d8482ab">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f4e56ca5-061e-4c1f-83c5-edc9e0468c7a"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, selecttag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="selecttag"
+				rect="238,382,58,38"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control inputMedium
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						Adulttitle1
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						select
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Adultchoose1
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-field"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-fieldname"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-index"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-name"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-traveller"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='www.goibibo.com']//select[#'Adulttitle1']
+				</path>
+			</info>
+			<AttributeValue>
+				1
+			</AttributeValue>
+		</setvaluerecorditem>
+		<setvaluerecorditem
+		attrname="TagValue"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="dd928918-eee5-43a8-ac8d-28b58c9f2edd">
 			<comment>
 			</comment>
 			<bindings>
