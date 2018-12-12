@@ -79,12 +79,12 @@ namespace GI_Desktop
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.SearchBox.GoibiboLogo' at 80;24.", repo.OnlineFlightBookingHotelsBusAmp.SearchBox.GoibiboLogoInfo, new RecordItemIndex(0));
-            repo.OnlineFlightBookingHotelsBusAmp.SearchBox.GoibiboLogo.Click("80;24");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.HttpsGoibiboIbcdnComStyleguideIma' at 71;19.", repo.OnlineFlightBookingHotelsBusAmp.HttpsGoibiboIbcdnComStyleguideImaInfo, new RecordItemIndex(0));
+            repo.OnlineFlightBookingHotelsBusAmp.HttpsGoibiboIbcdnComStyleguideIma.Click("71;19");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.IconAirportTransferDbBlueIco24Lh1' at 10;27.", repo.OnlineFlightBookingHotelsBusAmp.IconAirportTransferDbBlueIco24Lh1Info, new RecordItemIndex(1));
-            repo.OnlineFlightBookingHotelsBusAmp.IconAirportTransferDbBlueIco24Lh1.Click("10;27");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.IconAirportTransferDbBlueIco24Lh1' at 16;31.", repo.OnlineFlightBookingHotelsBusAmp.IconAirportTransferDbBlueIco24Lh1Info, new RecordItemIndex(1));
+            repo.OnlineFlightBookingHotelsBusAmp.IconAirportTransferDbBlueIco24Lh1.Click("16;31");
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.Flexrow.DelhiCantonmentNewDelhiDelhiIndi' at 88;7.", repo.OnlineFlightBookingHotelsBusAmp.Flexrow.DelhiCantonmentNewDelhiDelhiIndiInfo, new RecordItemIndex(2));

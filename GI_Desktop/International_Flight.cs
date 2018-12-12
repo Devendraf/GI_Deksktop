@@ -127,9 +127,9 @@ namespace GI_Desktop
             repo.OnlineFlightBookingHotelsBusAmp.GiSearchBtn.Click("61;9");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp1.Reload' at 13;13.", repo.OnlineFlightBookingHotelsBusAmp1.ReloadInfo, new RecordItemIndex(12));
-            repo.OnlineFlightBookingHotelsBusAmp1.Reload.Click("13;13");
-            Delay.Milliseconds(200);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp1.Reload' at 13;13.", repo.OnlineFlightBookingHotelsBusAmp1.ReloadInfo, new RecordItemIndex(12));
+            //repo.OnlineFlightBookingHotelsBusAmp1.Reload.Click("13;13");
+            //Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.IconArrowDownFlDownArrFilter' at 7;13.", repo.OnlineFlightBookingHotelsBusAmp.IconArrowDownFlDownArrFilterInfo, new RecordItemIndex(13));
             repo.OnlineFlightBookingHotelsBusAmp.IconArrowDownFlDownArrFilter.Click("7;13");

@@ -2056,7 +2056,7 @@ AKKKKACiiigAooooAKKKKACiiigArq6KKwq9DWn1CiiisTUKKKKAP//Z
 		action="Click"
 		button="Left"
 		duration="500ms"
-		enabled="True"
+		enabled="False"
 		loc="13;13"
 		movetime="300ms"
 		optional="False"

@@ -99,8 +99,8 @@ namespace GI_Desktop
             repo.OnlineFlightBookingHotelsBusAmp.Authiframe.AuthMobile.PressKeys("8858558819");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.Authiframe.MobileSubmitBtn' at 124;11.", repo.OnlineFlightBookingHotelsBusAmp.Authiframe.MobileSubmitBtnInfo, new RecordItemIndex(5));
-            repo.OnlineFlightBookingHotelsBusAmp.Authiframe.MobileSubmitBtn.Click("124;11");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.Authiframe.MobileSubmitBtn' at 154;43.", repo.OnlineFlightBookingHotelsBusAmp.Authiframe.MobileSubmitBtnInfo, new RecordItemIndex(5));
+            repo.OnlineFlightBookingHotelsBusAmp.Authiframe.MobileSubmitBtn.Click("154;43");
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.Authiframe.AuthCredentialPassword' at 143;28.", repo.OnlineFlightBookingHotelsBusAmp.Authiframe.AuthCredentialPasswordInfo, new RecordItemIndex(6));
@@ -118,6 +118,10 @@ namespace GI_Desktop
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.HttpsGoibiboIbcdnComStyleguideIma' at 71;16.", repo.OnlineFlightBookingHotelsBusAmp.HttpsGoibiboIbcdnComStyleguideImaInfo, new RecordItemIndex(9));
             repo.OnlineFlightBookingHotelsBusAmp.HttpsGoibiboIbcdnComStyleguideIma.Click("71;16");
             Delay.Milliseconds(930);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.Authiframe.AuthMobile' at 146;15.", repo.OnlineFlightBookingHotelsBusAmp.Authiframe.AuthMobileInfo, new RecordItemIndex(10));
+            repo.OnlineFlightBookingHotelsBusAmp.Authiframe.AuthMobile.Click("146;15");
+            Delay.Milliseconds(200);
             
         }
 
