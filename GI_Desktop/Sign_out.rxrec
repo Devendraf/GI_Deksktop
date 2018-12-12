@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="854764cf-d226-42c4-9f03-32b3d9500ff4"
+mode="Global"
+rxversion="8.3">
+	<name>
+		Sign_out
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		True
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Sign_out"
+	namespace="GI_Desktop">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="Chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				&#13;
+https://www.goibibo.com/logoutuser/
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="39483646-ed05-4655-8673-6db78668a12a"
+	name="GI_DesktopRepository"
+	relativepath="GI_DesktopRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="GI_DesktopRepository"
+		namespace="GI_Desktop">
+		</codegen>
+		<rootfolder
+		id="aaec3a10-b7eb-4792-bae5-758e29dbd0c2"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Sign_out.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

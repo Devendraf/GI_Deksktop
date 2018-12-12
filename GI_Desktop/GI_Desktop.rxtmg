@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.3">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroups
+			id="4c9d023a-ee4e-48f6-9857-e7c8761fc26e"
+			name="GI_Desktop">
+			</modulegroups>
+			<modulegroupdef
+			id="5b1108a3-4478-441d-af30-43205e390930"
+			name="ModuleGroup">
+			</modulegroupdef>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="4c9d023a-ee4e-48f6-9857-e7c8761fc26e"
+			name="GI_Desktop">
+				<modulegroupdef
+				id="5b1108a3-4478-441d-af30-43205e390930"
+				name="ModuleGroup">
+				</modulegroupdef>
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>
