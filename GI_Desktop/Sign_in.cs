@@ -99,8 +99,8 @@ namespace GI_Desktop
             repo.OnlineFlightBookingHotelsBusAmp.Authiframe.AuthMobile.PressKeys("8858558819");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.Authiframe.MobileSubmitBtn' at 155;9.", repo.OnlineFlightBookingHotelsBusAmp.Authiframe.MobileSubmitBtnInfo, new RecordItemIndex(5));
-            repo.OnlineFlightBookingHotelsBusAmp.Authiframe.MobileSubmitBtn.Click("155;9");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.Authiframe.MobileSubmitBtn' at 124;11.", repo.OnlineFlightBookingHotelsBusAmp.Authiframe.MobileSubmitBtnInfo, new RecordItemIndex(5));
+            repo.OnlineFlightBookingHotelsBusAmp.Authiframe.MobileSubmitBtn.Click("124;11");
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.Authiframe.AuthCredentialPassword' at 143;28.", repo.OnlineFlightBookingHotelsBusAmp.Authiframe.AuthCredentialPasswordInfo, new RecordItemIndex(6));

@@ -242,7 +242,7 @@ namespace GI_Desktop
         /// <summary>
         /// The Dropdown folder.
         /// </summary>
-        [RepositoryFolder("b930e259-7149-4aa7-96e4-c04be9e60fb7")]
+        [RepositoryFolder("7a86d2e7-872f-4d3d-a5da-d153b323d5e0")]
         public virtual GI_DesktopRepositoryFolders.DropdownAppFolder Dropdown
         {
             get { return _dropdown; }
@@ -562,6 +562,9 @@ namespace GI_Desktop
             RepoItemInfo _iconarrowdownfldownarrfilter4Info;
             RepoItemInfo _sliderframeInfo;
             RepoItemInfo _preloaderwrapngscopeInfo;
+            RepoItemInfo _newdelhirailwaystation1Info;
+            RepoItemInfo _kalyanjunction1Info;
+            RepoItemInfo _delhicantonmentnewdelhidelhiindiInfo;
 
             /// <summary>
             /// Creates a new OnlineFlightBookingHotelsBusAmp  folder.
@@ -804,6 +807,9 @@ namespace GI_Desktop
                 _iconarrowdownfldownarrfilter4Info = new RepoItemInfo(this, "IconArrowDownFlDownArrFilter4", ".//a[#'timesFilter']/span/i[2]", 30000, null, "279212b2-748b-4b7b-9099-40b0e4b82e9c");
                 _sliderframeInfo = new RepoItemInfo(this, "SliderFrame", ".//div[#'pop1']/div/div/div[2]/div[2]/div[3]/div[1]", 30000, null, "0eaa07bd-f604-495b-b282-76af9b1675ad");
                 _preloaderwrapngscopeInfo = new RepoItemInfo(this, "PreloaderWrapNgScope", "body/div[6]/?/?/tag[@tagname='gs-loader']/div", 30000, null, "5c0cdcb7-1edb-41eb-80eb-798f6da26e05");
+                _newdelhirailwaystation1Info = new RepoItemInfo(this, "NewDelhiRailwayStation1", ".//li[#'react-autosuggest-1-suggestion--1']/div/div[1]/?/?/span[@innertext='New Delhi Railway Station']", 30000, null, "7afca141-5bee-470a-9bd3-7a6d91030165");
+                _kalyanjunction1Info = new RepoItemInfo(this, "KalyanJunction1", ".//li[#'react-autosuggest-1-suggestion--0']/div/div[1]/?/?/span[@innertext='Kalyan Junction']", 30000, null, "e9ea9b99-1c80-4dd2-8295-37f2cf202902");
+                _delhicantonmentnewdelhidelhiindiInfo = new RepoItemInfo(this, "DelhiCantonmentNewDelhiDelhiIndi", ".//li[#'react-autosuggest-1-suggestion--0']/div//span[@innertext~'^Delhi\\ Cantonment,\\ New\\ Del']", 30000, null, "9794a27b-5b7a-4b0a-a89b-17061d363c7f");
             }
 
             /// <summary>
@@ -6800,6 +6806,78 @@ namespace GI_Desktop
             }
 
             /// <summary>
+            /// The NewDelhiRailwayStation1 item.
+            /// </summary>
+            [RepositoryItem("7afca141-5bee-470a-9bd3-7a6d91030165")]
+            public virtual Ranorex.SpanTag NewDelhiRailwayStation1
+            {
+                get
+                {
+                    return _newdelhirailwaystation1Info.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The NewDelhiRailwayStation1 item info.
+            /// </summary>
+            [RepositoryItemInfo("7afca141-5bee-470a-9bd3-7a6d91030165")]
+            public virtual RepoItemInfo NewDelhiRailwayStation1Info
+            {
+                get
+                {
+                    return _newdelhirailwaystation1Info;
+                }
+            }
+
+            /// <summary>
+            /// The KalyanJunction1 item.
+            /// </summary>
+            [RepositoryItem("e9ea9b99-1c80-4dd2-8295-37f2cf202902")]
+            public virtual Ranorex.SpanTag KalyanJunction1
+            {
+                get
+                {
+                    return _kalyanjunction1Info.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The KalyanJunction1 item info.
+            /// </summary>
+            [RepositoryItemInfo("e9ea9b99-1c80-4dd2-8295-37f2cf202902")]
+            public virtual RepoItemInfo KalyanJunction1Info
+            {
+                get
+                {
+                    return _kalyanjunction1Info;
+                }
+            }
+
+            /// <summary>
+            /// The DelhiCantonmentNewDelhiDelhiIndi item.
+            /// </summary>
+            [RepositoryItem("9794a27b-5b7a-4b0a-a89b-17061d363c7f")]
+            public virtual Ranorex.SpanTag DelhiCantonmentNewDelhiDelhiIndi
+            {
+                get
+                {
+                    return _delhicantonmentnewdelhidelhiindiInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DelhiCantonmentNewDelhiDelhiIndi item info.
+            /// </summary>
+            [RepositoryItemInfo("9794a27b-5b7a-4b0a-a89b-17061d363c7f")]
+            public virtual RepoItemInfo DelhiCantonmentNewDelhiDelhiIndiInfo
+            {
+                get
+                {
+                    return _delhicantonmentnewdelhidelhiindiInfo;
+                }
+            }
+
+            /// <summary>
             /// The Authiframe folder.
             /// </summary>
             [RepositoryFolder("8219a98e-3b36-4152-b4c0-7cf04a4ae35c")]
@@ -10086,6 +10164,8 @@ namespace GI_Desktop
             RepoItemInfo _divtag27Info;
             RepoItemInfo _gosuggestinputlInfo;
             RepoItemInfo _divtag26Info;
+            RepoItemInfo _daypickernavbuttondaypickernavbuttonInfo;
+            RepoItemInfo _divtag12Info;
 
             /// <summary>
             /// Creates a new GiSearch  folder.
@@ -10098,6 +10178,8 @@ namespace GI_Desktop
                 _divtag27Info = new RepoItemInfo(this, "DivTag27", "div/div[3]/div[1]/div/div/div/div[2]/div[3]/div[5]/div[@innertext='27']", 30000, null, "15e97605-a11a-4ff9-9111-9b06f9c56548");
                 _gosuggestinputlInfo = new RepoItemInfo(this, "GosuggestInputL", ".//input[@type='text' and @value='Kalyan Junction']", 30000, null, "c60f5916-8121-4c56-82e5-bc638a1262d6");
                 _divtag26Info = new RepoItemInfo(this, "DivTag26", "div/div[3]/div[1]/div/div/div/div[2]/div[3]/div[5]/div[@innertext='26']", 30000, null, "98260f1b-742c-4012-aee2-e12c15be02b8");
+                _daypickernavbuttondaypickernavbuttonInfo = new RepoItemInfo(this, "DayPickerNavButtonDayPickerNavButton", "div/div[3]/div[1]/div/div/div/div[1]/span[2]", 30000, null, "8c4cf25a-cb2f-4fd6-90a4-ab97b1801e73");
+                _divtag12Info = new RepoItemInfo(this, "DivTag12", "div/div[3]/div[1]/div/div/div/div[2]/div[3]/div[3]/div[@innertext='12']", 30000, null, "ddf1afa4-4ab8-4949-ad61-1e31a0bb91a8");
             }
 
             /// <summary>
@@ -10241,6 +10323,54 @@ namespace GI_Desktop
                 get
                 {
                     return _divtag26Info;
+                }
+            }
+
+            /// <summary>
+            /// The DayPickerNavButtonDayPickerNavButton item.
+            /// </summary>
+            [RepositoryItem("8c4cf25a-cb2f-4fd6-90a4-ab97b1801e73")]
+            public virtual Ranorex.SpanTag DayPickerNavButtonDayPickerNavButton
+            {
+                get
+                {
+                    return _daypickernavbuttondaypickernavbuttonInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DayPickerNavButtonDayPickerNavButton item info.
+            /// </summary>
+            [RepositoryItemInfo("8c4cf25a-cb2f-4fd6-90a4-ab97b1801e73")]
+            public virtual RepoItemInfo DayPickerNavButtonDayPickerNavButtonInfo
+            {
+                get
+                {
+                    return _daypickernavbuttondaypickernavbuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DivTag12 item.
+            /// </summary>
+            [RepositoryItem("ddf1afa4-4ab8-4949-ad61-1e31a0bb91a8")]
+            public virtual Ranorex.DivTag DivTag12
+            {
+                get
+                {
+                    return _divtag12Info.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DivTag12 item info.
+            /// </summary>
+            [RepositoryItemInfo("ddf1afa4-4ab8-4949-ad61-1e31a0bb91a8")]
+            public virtual RepoItemInfo DivTag12Info
+            {
+                get
+                {
+                    return _divtag12Info;
                 }
             }
         }
@@ -10548,6 +10678,10 @@ namespace GI_Desktop
             RepoItemInfo _booknow3Info;
             RepoItemInfo _httpsgos3ibcdncomimg1541152580jpInfo;
             SpanTagSignOutInfoClass _spantagsignoutInfo;
+            RepoItemInfo _checkavailability1Info;
+            RepoItemInfo _litag3a1Info;
+            RepoItemInfo _litagslInfo;
+            RepoItemInfo _booknow4Info;
 
             /// <summary>
             /// Creates a new SearchBox  folder.
@@ -10590,6 +10724,10 @@ namespace GI_Desktop
                 _booknow3Info = new RepoItemInfo(this, "BOOKNOW3", "div[8]/section//button[@innertext='BOOK NOW']", 30000, null, "9bd03e70-c4d0-4c27-9457-ec7170f52998");
                 _httpsgos3ibcdncomimg1541152580jpInfo = new RepoItemInfo(this, "HttpsGos3IbcdnComImg1541152580Jp", ".//img[@src='https://gos3.ibcdn.com/img-1541152580.jpg']", 30000, null, "587be966-8485-4c16-a63f-321031cdd045");
                 _spantagsignoutInfo = new SpanTagSignOutInfoClass(this);
+                _checkavailability1Info = new RepoItemInfo(this, "CheckAvailability1", "div[3]/section//span[@innertext='Check Availability']", 30000, null, "d2d61c5b-2a0d-49b0-8105-77480a1ccbe5");
+                _litag3a1Info = new RepoItemInfo(this, "LiTag3A1", "div[3]/section//ul/li[@innertext='3A']", 30000, null, "1afbf18c-8794-492a-81ac-91f489409c4b");
+                _litagslInfo = new RepoItemInfo(this, "LiTagSL", "div[3]/section//ul/li[@innertext='SL']", 30000, null, "de8b7ac8-92a7-41af-864a-1252ccd8667c");
+                _booknow4Info = new RepoItemInfo(this, "BOOKNOW4", "div[3]/section//button[@innertext='BOOK NOW']", 30000, null, "b3b27698-acf5-4dba-bcd7-da75e51b5038");
             }
 
             /// <summary>
@@ -11525,6 +11663,102 @@ namespace GI_Desktop
                     return _spantagsignoutInfo;
                 }
             }
+
+            /// <summary>
+            /// The CheckAvailability1 item.
+            /// </summary>
+            [RepositoryItem("d2d61c5b-2a0d-49b0-8105-77480a1ccbe5")]
+            public virtual Ranorex.SpanTag CheckAvailability1
+            {
+                get
+                {
+                    return _checkavailability1Info.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CheckAvailability1 item info.
+            /// </summary>
+            [RepositoryItemInfo("d2d61c5b-2a0d-49b0-8105-77480a1ccbe5")]
+            public virtual RepoItemInfo CheckAvailability1Info
+            {
+                get
+                {
+                    return _checkavailability1Info;
+                }
+            }
+
+            /// <summary>
+            /// The LiTag3A1 item.
+            /// </summary>
+            [RepositoryItem("1afbf18c-8794-492a-81ac-91f489409c4b")]
+            public virtual Ranorex.LiTag LiTag3A1
+            {
+                get
+                {
+                    return _litag3a1Info.CreateAdapter<Ranorex.LiTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LiTag3A1 item info.
+            /// </summary>
+            [RepositoryItemInfo("1afbf18c-8794-492a-81ac-91f489409c4b")]
+            public virtual RepoItemInfo LiTag3A1Info
+            {
+                get
+                {
+                    return _litag3a1Info;
+                }
+            }
+
+            /// <summary>
+            /// The LiTagSL item.
+            /// </summary>
+            [RepositoryItem("de8b7ac8-92a7-41af-864a-1252ccd8667c")]
+            public virtual Ranorex.LiTag LiTagSL
+            {
+                get
+                {
+                    return _litagslInfo.CreateAdapter<Ranorex.LiTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LiTagSL item info.
+            /// </summary>
+            [RepositoryItemInfo("de8b7ac8-92a7-41af-864a-1252ccd8667c")]
+            public virtual RepoItemInfo LiTagSLInfo
+            {
+                get
+                {
+                    return _litagslInfo;
+                }
+            }
+
+            /// <summary>
+            /// The BOOKNOW4 item.
+            /// </summary>
+            [RepositoryItem("b3b27698-acf5-4dba-bcd7-da75e51b5038")]
+            public virtual Ranorex.ButtonTag BOOKNOW4
+            {
+                get
+                {
+                    return _booknow4Info.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BOOKNOW4 item info.
+            /// </summary>
+            [RepositoryItemInfo("b3b27698-acf5-4dba-bcd7-da75e51b5038")]
+            public virtual RepoItemInfo BOOKNOW4Info
+            {
+                get
+                {
+                    return _booknow4Info;
+                }
+            }
         }
 
         /// <summary>
@@ -11559,6 +11793,10 @@ namespace GI_Desktop
             RepoItemInfo _viewoffersInfo;
             RepoItemInfo _apply2Info;
             RepoItemInfo _apply3Info;
+            RepoItemInfo _delhicantonmentnewdelhidelhiindiInfo;
+            RepoItemInfo _divtag24Info;
+            RepoItemInfo _icongocarsinfoblueico20Info;
+            RepoItemInfo _gotit1Info;
 
             /// <summary>
             /// Creates a new Flexrow  folder.
@@ -11592,6 +11830,10 @@ namespace GI_Desktop
                 _viewoffersInfo = new RepoItemInfo(this, "VIEWOFFERS", "section[1]/section/div[2]/div/div/section[2]//span[@innertext='VIEW OFFERS']", 30000, null, "3c9d59d4-9eba-4dfb-b711-c71103c94969");
                 _apply2Info = new RepoItemInfo(this, "Apply2", "section[1]/section/div[1]/section/section[2]/div/section[2]/div[3]/span/button[@innertext='Apply']", 30000, null, "3da276b6-7961-4398-a50f-800504cde9d7");
                 _apply3Info = new RepoItemInfo(this, "Apply3", "section[1]/section/div[1]/section/section[2]/div/section[2]/div[2]/span/button[@innertext='Apply']", 30000, null, "428e5b91-7259-43a3-85e9-12217bee15f2");
+                _delhicantonmentnewdelhidelhiindiInfo = new RepoItemInfo(this, "DelhiCantonmentNewDelhiDelhiIndi", "section[1]/section/section[2]/section[2]//p[@innertext~'^Delhi\\ Cantonment,\\ New\\ Del']", 30000, null, "f1aed519-fb5c-42d1-b70c-dd2799d81583");
+                _divtag24Info = new RepoItemInfo(this, "DivTag24", "section[1]/section/section[2]/section[2]/div[2]/div/div[1]/div/div/div/div/div/div[2]/div/div[3]/div[5]/div[@innertext='24']", 30000, null, "819d36a7-2d0a-4f51-8dc4-2653d41dc21b");
+                _icongocarsinfoblueico20Info = new RepoItemInfo(this, "IcongocarsInfoBlueIco20", "section[1]/section/div[2]/div/div/section[2]//i", 30000, null, "3778d819-71f8-4f03-a9db-d82402bd3252");
+                _gotit1Info = new RepoItemInfo(this, "GOTIT1", "section[1]/section/div[2]/div/div/div[1]//span[@innertext='GOT IT']", 30000, null, "f3655715-c861-4eeb-9b65-f8646426e4b0");
             }
 
             /// <summary>
@@ -12241,6 +12483,102 @@ namespace GI_Desktop
                     return _apply3Info;
                 }
             }
+
+            /// <summary>
+            /// The DelhiCantonmentNewDelhiDelhiIndi item.
+            /// </summary>
+            [RepositoryItem("f1aed519-fb5c-42d1-b70c-dd2799d81583")]
+            public virtual Ranorex.PTag DelhiCantonmentNewDelhiDelhiIndi
+            {
+                get
+                {
+                    return _delhicantonmentnewdelhidelhiindiInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DelhiCantonmentNewDelhiDelhiIndi item info.
+            /// </summary>
+            [RepositoryItemInfo("f1aed519-fb5c-42d1-b70c-dd2799d81583")]
+            public virtual RepoItemInfo DelhiCantonmentNewDelhiDelhiIndiInfo
+            {
+                get
+                {
+                    return _delhicantonmentnewdelhidelhiindiInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DivTag24 item.
+            /// </summary>
+            [RepositoryItem("819d36a7-2d0a-4f51-8dc4-2653d41dc21b")]
+            public virtual Ranorex.DivTag DivTag24
+            {
+                get
+                {
+                    return _divtag24Info.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DivTag24 item info.
+            /// </summary>
+            [RepositoryItemInfo("819d36a7-2d0a-4f51-8dc4-2653d41dc21b")]
+            public virtual RepoItemInfo DivTag24Info
+            {
+                get
+                {
+                    return _divtag24Info;
+                }
+            }
+
+            /// <summary>
+            /// The IcongocarsInfoBlueIco20 item.
+            /// </summary>
+            [RepositoryItem("3778d819-71f8-4f03-a9db-d82402bd3252")]
+            public virtual Ranorex.ITag IcongocarsInfoBlueIco20
+            {
+                get
+                {
+                    return _icongocarsinfoblueico20Info.CreateAdapter<Ranorex.ITag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The IcongocarsInfoBlueIco20 item info.
+            /// </summary>
+            [RepositoryItemInfo("3778d819-71f8-4f03-a9db-d82402bd3252")]
+            public virtual RepoItemInfo IcongocarsInfoBlueIco20Info
+            {
+                get
+                {
+                    return _icongocarsinfoblueico20Info;
+                }
+            }
+
+            /// <summary>
+            /// The GOTIT1 item.
+            /// </summary>
+            [RepositoryItem("f3655715-c861-4eeb-9b65-f8646426e4b0")]
+            public virtual Ranorex.SpanTag GOTIT1
+            {
+                get
+                {
+                    return _gotit1Info.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The GOTIT1 item info.
+            /// </summary>
+            [RepositoryItemInfo("f3655715-c861-4eeb-9b65-f8646426e4b0")]
+            public virtual RepoItemInfo GOTIT1Info
+            {
+                get
+                {
+                    return _gotit1Info;
+                }
+            }
         }
 
         /// <summary>
@@ -12562,6 +12900,7 @@ namespace GI_Desktop
             RepoItemInfo _spantagaddInfo;
             RepoItemInfo _connectearnInfo;
             RepoItemInfo _somelitagInfo;
+            RepoItemInfo _printticketInfo;
 
             /// <summary>
             /// Creates a new MainLinks1  folder.
@@ -12582,6 +12921,7 @@ namespace GI_Desktop
                 _spantagaddInfo = new RepoItemInfo(this, "SpanTagADD", ".//span[@innertext='ADD']", 30000, null, "367f0413-b8be-4dae-8939-a9ef74cc3924");
                 _connectearnInfo = new RepoItemInfo(this, "ConnectEarn", "?/?/a[@innertext='Connect & Earn']", 30000, null, "80464758-9a6b-4420-a700-e53852b55fc8");
                 _somelitagInfo = new RepoItemInfo(this, "SomeLiTag", "li[3]", 30000, null, "6a1d1703-081d-424b-9aaa-77000a331b34");
+                _printticketInfo = new RepoItemInfo(this, "PrintTicket", ".//span[@innertext='Print Ticket']", 30000, null, "0d7cbd0a-4d2d-4d03-a5c3-4fb550838530");
             }
 
             /// <summary>
@@ -12917,6 +13257,30 @@ namespace GI_Desktop
                 get
                 {
                     return _somelitagInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PrintTicket item.
+            /// </summary>
+            [RepositoryItem("0d7cbd0a-4d2d-4d03-a5c3-4fb550838530")]
+            public virtual Ranorex.SpanTag PrintTicket
+            {
+                get
+                {
+                    return _printticketInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PrintTicket item info.
+            /// </summary>
+            [RepositoryItemInfo("0d7cbd0a-4d2d-4d03-a5c3-4fb550838530")]
+            public virtual RepoItemInfo PrintTicketInfo
+            {
+                get
+                {
+                    return _printticketInfo;
                 }
             }
         }
@@ -14960,6 +15324,7 @@ namespace GI_Desktop
             RepoItemInfo _close1Info;
             RepoItemInfo _paneInfo;
             RepoItemInfo _pane1Info;
+            RepoItemInfo _backInfo;
 
             /// <summary>
             /// Creates a new GoibiboGoogleChrome  folder.
@@ -14971,6 +15336,7 @@ namespace GI_Desktop
                 _close1Info = new RepoItemInfo(this, "Close1", "container[@accessiblename='Goibibo - Google Chrome']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename='Goibibo']/button[@accessiblename='Close']", 30000, null, "e76f7213-c56d-4f6e-97b7-30818c236450");
                 _paneInfo = new RepoItemInfo(this, "Pane", "container[@accessiblename='Goibibo - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[1]/container[@accessiblerole='Pane']/container[1]/container[2]", 30000, null, "42c31750-f92e-46bb-9856-816e128c8aa3");
                 _pane1Info = new RepoItemInfo(this, "Pane1", "container[@accessiblename='Goibibo - Google Chrome']/container/container[2]/container[1]", 30000, null, "085f435d-98bd-4ce7-a4fc-786b8697b17d");
+                _backInfo = new RepoItemInfo(this, "Back", "container[@accessiblename='Goibibo - Google Chrome']/container[@accessiblename='Google Chrome']//button[@accessiblename='Back']", 30000, null, "a346e4b5-b458-4886-ac84-6ae1dcff04c4");
             }
 
             /// <summary>
@@ -15092,12 +15458,36 @@ namespace GI_Desktop
                     return _pane1Info;
                 }
             }
+
+            /// <summary>
+            /// The Back item.
+            /// </summary>
+            [RepositoryItem("a346e4b5-b458-4886-ac84-6ae1dcff04c4")]
+            public virtual Ranorex.Button Back
+            {
+                get
+                {
+                    return _backInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Back item info.
+            /// </summary>
+            [RepositoryItemInfo("a346e4b5-b458-4886-ac84-6ae1dcff04c4")]
+            public virtual RepoItemInfo BackInfo
+            {
+                get
+                {
+                    return _backInfo;
+                }
+            }
         }
 
         /// <summary>
         /// The DropdownAppFolder folder.
         /// </summary>
-        [RepositoryFolder("b930e259-7149-4aa7-96e4-c04be9e60fb7")]
+        [RepositoryFolder("7a86d2e7-872f-4d3d-a5da-d153b323d5e0")]
         public partial class DropdownAppFolder : RepoGenBaseFolder
         {
 
@@ -15105,14 +15495,14 @@ namespace GI_Desktop
             /// Creates a new Dropdown  folder.
             /// </summary>
             public DropdownAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("Dropdown", "/container[@caption='dropdown']", parentFolder, 30000, null, true, "b930e259-7149-4aa7-96e4-c04be9e60fb7", "")
+                    base("Dropdown", "/container[@caption='dropdown']", parentFolder, 30000, null, true, "7a86d2e7-872f-4d3d-a5da-d153b323d5e0", "")
             {
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
-            [RepositoryItem("b930e259-7149-4aa7-96e4-c04be9e60fb7")]
+            [RepositoryItem("7a86d2e7-872f-4d3d-a5da-d153b323d5e0")]
             public virtual Ranorex.Container Self
             {
                 get
@@ -15124,7 +15514,7 @@ namespace GI_Desktop
             /// <summary>
             /// The Self item info.
             /// </summary>
-            [RepositoryItemInfo("b930e259-7149-4aa7-96e4-c04be9e60fb7")]
+            [RepositoryItemInfo("7a86d2e7-872f-4d3d-a5da-d153b323d5e0")]
             public virtual RepoItemInfo SelfInfo
             {
                 get

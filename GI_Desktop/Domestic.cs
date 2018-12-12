@@ -103,9 +103,9 @@ namespace GI_Desktop
             repo.OnlineFlightBookingHotelsBusAmp.MainTxt.Click("85;5");
             Delay.Milliseconds(200);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.GetSetGo' at 25;20.", repo.OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.GetSetGoInfo, new RecordItemIndex(6));
-            //repo.OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.GetSetGo.Click("25;20");
-            //Delay.Milliseconds(200);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.GetSetGo' at 25;20.", repo.OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.GetSetGoInfo, new RecordItemIndex(6));
+            repo.OnlineFlightBookingHotelsBusAmp.FlightDetailsFl.GetSetGo.Click("25;20");
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -1920 units.", new RecordItemIndex(7));
             Mouse.ScrollWheel(-1920);

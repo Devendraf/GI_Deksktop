@@ -2493,6 +2493,26 @@ tB710VicjqExtDryH4tHj3UfrDRWGivtEepkpTWrNP5Ytd4/Qf/bCezHqvxZeDth3X0Wzj/AGD80
 				searchtimeout="30000ms">
 					/dom[@domain='www.goibibo.com']//form[#'gi_search']/div/div[3]/div[1]/div/div/div/div[2]/div[3]/div[5]/div[@innertext='26']
 				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="8c4cf25a-cb2f-4fd6-90a4-ab97b1801e73"
+				name="DayPickerNavButtonDayPickerNavButton"
+				refimgid="5926d3bc-d259-49f2-b180-d84c4bffe581"
+				refpath="/dom[@domain='www.goibibo.com']//form[#'gi_search']/div/div[3]/div[1]/div/div/div/div[1]/span[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']//form[#'gi_search']/div/div[3]/div[1]/div/div/div/div[1]/span[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="ddf1afa4-4ab8-4949-ad61-1e31a0bb91a8"
+				name="DivTag12"
+				refimgid="8a54c425-3712-41a4-af6b-98861e0ddf3f"
+				refpath="/dom[@domain='www.goibibo.com']//form[#'gi_search']/div/div[3]/div[1]/div/div/div/div[2]/div[3]/div[3]/div[@innertext='12']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']//form[#'gi_search']/div/div[3]/div[1]/div/div/div/div[2]/div[3]/div[3]/div[@innertext='12']
+				</item>
 				<basepath>
 					/dom[@domain='www.goibibo.com']//form[#'gi_search']
 				</basepath>
@@ -2986,6 +3006,46 @@ yI+GPBml3miyGU02o8mGjBAYTTZkBBoAaXQ7YtCBxOQAAAAASUVORK5CYII=
 					</image>
 					/dom[@domain='www.goibibo.com']/body/div[1]/div/div[2]//span[@innertext=' SignOut']
 				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="d2d61c5b-2a0d-49b0-8105-77480a1ccbe5"
+				name="CheckAvailability1"
+				refimgid="8450f9ad-744f-4cb5-9bc3-eecec85e4d40"
+				refpath="/dom[@domain='www.goibibo.com']/body/div[1]/div/div[2]/div[3]/section/div[1]/div[3]/a/span[@innertext='Check Availability']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']/body/div[1]/div/div[2]/div[3]/section//span[@innertext='Check Availability']
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="1afbf18c-8794-492a-81ac-91f489409c4b"
+				name="LiTag3A1"
+				refimgid="5d60907f-4232-464e-997a-7cab1cf8450b"
+				refpath="/dom[@domain='www.goibibo.com']/body/div[1]/div/div[2]/div[3]/section/div[2]/div[1]/div[1]/ul/li[@innertext='3A']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']/body/div[1]/div/div[2]/div[3]/section//ul/li[@innertext='3A']
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="de8b7ac8-92a7-41af-864a-1252ccd8667c"
+				name="LiTagSL"
+				refimgid="c80e6cdf-9b02-436d-b155-208f500f8c4b"
+				refpath="/dom[@domain='www.goibibo.com']/body/div[1]/div/div[2]/div[3]/section/div[2]/div[1]/div[1]/ul/li[@innertext='SL']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']/body/div[1]/div/div[2]/div[3]/section//ul/li[@innertext='SL']
+				</item>
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="b3b27698-acf5-4dba-bcd7-da75e51b5038"
+				name="BOOKNOW4"
+				refimgid="f1e9c6e7-bd46-49f2-8fcd-f2e436e1c0c9"
+				refpath="/dom[@domain='www.goibibo.com']/body/div[1]/div/div[2]/div[3]/section/div[2]/div[2]/div[1]/div/div[2]/button[@innertext='BOOK NOW']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']/body/div[1]/div/div[2]/div[3]/section//button[@innertext='BOOK NOW']
+				</item>
 				<basepath>
 					/dom[@domain='www.goibibo.com']/body/div[1]/div/div[2]
 				</basepath>
@@ -3347,6 +3407,46 @@ yI+GPBml3miyGU02o8mGjBAYTTZkBBoAaXQ7YtCBxOQAAAAASUVORK5CYII=
 				refpath="/dom[@domain='www.goibibo.com' and @caption~'^Online\ Cab\ Booking,\ Cheap' and @page='review']//div[#'root']/div[2]/section/div/section[1]/section/div[1]/section/section[2]/div/section[2]/div[2]/span/button[@innertext='Apply']"
 				searchtimeout="30000ms">
 					/dom[@domain='www.goibibo.com']//div[#'root']/?/?/section/div/section[1]/section/div[1]/section/section[2]/div/section[2]/div[2]/span/button[@innertext='Apply']
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="f1aed519-fb5c-42d1-b70c-dd2799d81583"
+				name="DelhiCantonmentNewDelhiDelhiIndi"
+				refimgid="1df9ce05-3498-4c8d-a1e2-f0faebf94d48"
+				refpath="/dom[@domain='www.goibibo.com']//div[#'root']/div[2]/section/div/section[1]/section/section[2]/section[2]/div[1]/div[1]/p[@innertext~'^Delhi\ Cantonment,\ New\ Del']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']//div[#'root']/?/?/section/div/section[1]/section/section[2]/section[2]//p[@innertext~'^Delhi\ Cantonment,\ New\ Del']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="819d36a7-2d0a-4f51-8dc4-2653d41dc21b"
+				name="DivTag24"
+				refimgid="9e9928ee-b25a-478b-95e9-15f6155be4c8"
+				refpath="/dom[@domain='www.goibibo.com']//div[#'root']/div[2]/section/div/section[1]/section/section[2]/section[2]/div[2]/div/div[1]/div/div/div/div/div/div[2]/div/div[3]/div[5]/div[@innertext='24']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']//div[#'root']/?/?/section/div/section[1]/section/section[2]/section[2]/div[2]/div/div[1]/div/div/div/div/div/div[2]/div/div[3]/div[5]/div[@innertext='24']
+				</item>
+				<item
+				addcaps="unknown,webelement,itag"
+				capname="itag"
+				id="3778d819-71f8-4f03-a9db-d82402bd3252"
+				name="IcongocarsInfoBlueIco20"
+				refimgid="87c57866-62ff-4bee-929f-8df077f75b7f"
+				refpath="/dom[@domain='www.goibibo.com']//div[#'root']/div[2]/section/div/section[1]/section/div[2]/div/div/section[2]/div[2]/div[2]/i"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']//div[#'root']/?/?/section/div/section[1]/section/div[2]/div/div/section[2]//i
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="f3655715-c861-4eeb-9b65-f8646426e4b0"
+				name="GOTIT1"
+				refimgid="866ef3c1-14b9-42b7-af2d-5932b80cef10"
+				refpath="/dom[@domain='www.goibibo.com']//div[#'root']/div[2]/section/div/section[1]/section/div[2]/div/div/div[1]/div/div[3]/span[@innertext='GOT IT']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']//div[#'root']/?/?/section/div/section[1]/section/div[2]/div/div/div[1]//span[@innertext='GOT IT']
 				</item>
 				<basepath>
 					/dom[@domain='www.goibibo.com']//div[#'root']/?/?/section/div
@@ -4620,6 +4720,16 @@ z9DKr5N/H/4FXTLOwyi/EtoAAAAASUVORK5CYII=
 				searchtimeout="30000ms">
 					/dom[@domain='www.goibibo.com']/body/div[6]/div/div[2]//ul/li[3]
 				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="0d7cbd0a-4d2d-4d03-a5c3-4fb550838530"
+				name="PrintTicket"
+				refimgid="b337375b-0ea0-4758-a6d4-29528116ca20"
+				refpath="/dom[@domain='www.goibibo.com']//div[#'hd_user_widdget']/div/ul/li[5]/a/span[@innertext='Print Ticket']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']/body/div[6]/div/div[2]//ul//span[@innertext='Print Ticket']
+				</item>
 				<basepath>
 					/dom[@domain='www.goibibo.com']/body/div[6]/div/div[2]//ul
 				</basepath>
@@ -5610,6 +5720,36 @@ gIHuGECgI9DxlMEADMAADMAADMAADMAADMAADETAwP8PurBoTTK4qCgAAAAASUVORK5CYII=
 			searchtimeout="30000ms">
 				/dom[@domain='www.goibibo.com']/body/div[6]/?/?/tag[@tagname='gs-loader']/div
 			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="7afca141-5bee-470a-9bd3-7a6d91030165"
+			name="NewDelhiRailwayStation1"
+			refimgid="fd51a48e-0123-4685-aa5b-d3239d294eda"
+			refpath="/dom[@domain='www.goibibo.com']//li[#'react-autosuggest-1-suggestion--1']/div/div[1]/div/span[@innertext='New Delhi Railway Station']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//li[#'react-autosuggest-1-suggestion--1']/div/div[1]/?/?/span[@innertext='New Delhi Railway Station']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="e9ea9b99-1c80-4dd2-8295-37f2cf202902"
+			name="KalyanJunction1"
+			refimgid="1df44668-55f3-478d-8462-9a81ebf92f76"
+			refpath="/dom[@domain='www.goibibo.com']//li[#'react-autosuggest-1-suggestion--0']/div/div[1]/div/span[@innertext='Kalyan Junction']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//li[#'react-autosuggest-1-suggestion--0']/div/div[1]/?/?/span[@innertext='Kalyan Junction']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="9794a27b-5b7a-4b0a-a89b-17061d363c7f"
+			name="DelhiCantonmentNewDelhiDelhiIndi"
+			refimgid="8df9e8c8-8904-48fb-8cbe-8f53c09a4e1c"
+			refpath="/dom[@domain='www.goibibo.com']//li[#'react-autosuggest-1-suggestion--0']/div/span/p/span[@innertext~'^Delhi\ Cantonment,\ New\ Del']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//li[#'react-autosuggest-1-suggestion--0']/div//span[@innertext~'^Delhi\ Cantonment,\ New\ Del']
+			</item>
 			<basepath>
 				/dom[@domain='www.goibibo.com']
 			</basepath>
@@ -6576,6 +6716,16 @@ AElFTkSuQmCC
 			searchtimeout="30000ms">
 				/form[@title='Goibibo - Google Chrome']/container[@accessiblename='Goibibo - Google Chrome']/container/container[2]/container[1]
 			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="a346e4b5-b458-4886-ac84-6ae1dcff04c4"
+			name="Back"
+			refimgid="cb49c9cd-2725-4e6c-b959-3b48901e57f2"
+			refpath="/form[@title='Goibibo - Google Chrome']/container/container/container[2]/container[1]/container/button[@accessiblename='Back']"
+			searchtimeout="30000ms">
+				/form[@title='Goibibo - Google Chrome']/container[@accessiblename='Goibibo - Google Chrome']/container[@accessiblename='Google Chrome']//button[@accessiblename='Back']
+			</item>
 			<basepath>
 				/form[@title='Goibibo - Google Chrome']
 			</basepath>
@@ -6598,10 +6748,10 @@ AElFTkSuQmCC
 		<appfolder
 		addcaps="container"
 		capname="container"
-		id="b930e259-7149-4aa7-96e4-c04be9e60fb7"
+		id="7a86d2e7-872f-4d3d-a5da-d153b323d5e0"
 		isrooted="True"
 		name="Dropdown"
-		refimgid="eeb3cb06-25ec-4079-b5fe-30dd26f7a185"
+		refimgid="289e1044-e742-47b6-b14e-156d930e7e38"
 		refpath="/container[@caption='dropdown']"
 		searchtimeout="30000ms"
 		usecache="True">
