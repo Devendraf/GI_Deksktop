@@ -43,7 +43,6 @@ namespace GI_Desktop
         GI_DesktopRepositoryFolders.SignInGoogleChromeAppFolder _signingooglechrome;
         GI_DesktopRepositoryFolders.ReferEarn3XNowGoogleChromeAppFolder _referearn3xnowgooglechrome;
         GI_DesktopRepositoryFolders.GoibiboGoogleChromeAppFolder _goibibogooglechrome;
-        GI_DesktopRepositoryFolders.DropdownAppFolder _dropdown;
 
         /// <summary>
         /// Gets the singleton class instance representing the GI_DesktopRepository element repository.
@@ -76,7 +75,6 @@ namespace GI_Desktop
             _signingooglechrome = new GI_DesktopRepositoryFolders.SignInGoogleChromeAppFolder(this);
             _referearn3xnowgooglechrome = new GI_DesktopRepositoryFolders.ReferEarn3XNowGoogleChromeAppFolder(this);
             _goibibogooglechrome = new GI_DesktopRepositoryFolders.GoibiboGoogleChromeAppFolder(this);
-            _dropdown = new GI_DesktopRepositoryFolders.DropdownAppFolder(this);
         }
 
 #region Variables
@@ -237,15 +235,6 @@ namespace GI_Desktop
         public virtual GI_DesktopRepositoryFolders.GoibiboGoogleChromeAppFolder GoibiboGoogleChrome
         {
             get { return _goibibogooglechrome; }
-        }
-
-        /// <summary>
-        /// The Dropdown folder.
-        /// </summary>
-        [RepositoryFolder("d29ace03-4600-4d57-aaee-266161f8606f")]
-        public virtual GI_DesktopRepositoryFolders.DropdownAppFolder Dropdown
-        {
-            get { return _dropdown; }
         }
     }
 
@@ -10085,6 +10074,7 @@ namespace GI_Desktop
             RepoItemInfo _textInfo;
             RepoItemInfo _divtag27Info;
             RepoItemInfo _gosuggestinputlInfo;
+            RepoItemInfo _divtag26Info;
 
             /// <summary>
             /// Creates a new GiSearch  folder.
@@ -10096,6 +10086,7 @@ namespace GI_Desktop
                 _textInfo = new RepoItemInfo(this, "Text", "div/div[3]/div[1]//input[@type='text']", 30000, null, "8c1bbe26-f005-429c-8559-6564e3544d5f");
                 _divtag27Info = new RepoItemInfo(this, "DivTag27", "div/div[3]/div[1]/div/div/div/div[2]/div[3]/div[5]/div[@innertext='27']", 30000, null, "15e97605-a11a-4ff9-9111-9b06f9c56548");
                 _gosuggestinputlInfo = new RepoItemInfo(this, "GosuggestInputL", ".//input[@type='text' and @value='Kalyan Junction']", 30000, null, "c60f5916-8121-4c56-82e5-bc638a1262d6");
+                _divtag26Info = new RepoItemInfo(this, "DivTag26", "div/div[3]/div[1]/div/div/div/div[2]/div[3]/div[5]/div[@innertext='26']", 30000, null, "98260f1b-742c-4012-aee2-e12c15be02b8");
             }
 
             /// <summary>
@@ -10215,6 +10206,30 @@ namespace GI_Desktop
                 get
                 {
                     return _gosuggestinputlInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DivTag26 item.
+            /// </summary>
+            [RepositoryItem("98260f1b-742c-4012-aee2-e12c15be02b8")]
+            public virtual Ranorex.DivTag DivTag26
+            {
+                get
+                {
+                    return _divtag26Info.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DivTag26 item info.
+            /// </summary>
+            [RepositoryItemInfo("98260f1b-742c-4012-aee2-e12c15be02b8")]
+            public virtual RepoItemInfo DivTag26Info
+            {
+                get
+                {
+                    return _divtag26Info;
                 }
             }
         }
@@ -15064,46 +15079,6 @@ namespace GI_Desktop
                 get
                 {
                     return _pane1Info;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The DropdownAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("d29ace03-4600-4d57-aaee-266161f8606f")]
-        public partial class DropdownAppFolder : RepoGenBaseFolder
-        {
-
-            /// <summary>
-            /// Creates a new Dropdown  folder.
-            /// </summary>
-            public DropdownAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("Dropdown", "/container[@caption='dropdown']", parentFolder, 30000, null, true, "d29ace03-4600-4d57-aaee-266161f8606f", "")
-            {
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("d29ace03-4600-4d57-aaee-266161f8606f")]
-            public virtual Ranorex.Container Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("d29ace03-4600-4d57-aaee-266161f8606f")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
                 }
             }
         }

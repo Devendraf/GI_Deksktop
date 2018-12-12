@@ -3025,17 +3025,175 @@ zpP+faX81/xo86T/AJ9pfzX/ABqWigCLzpP+faX81/xo86T/AJ9pfzX/ABqWigCLzpP+faX81/xo
 86T/AJ9pfzX/ABqWigCLdO33Ywnu5z+g/wAackYQliSznqxp9FABRRRQB//Z
 			</helperscreenshot>
 		</mouseitem>
+		<setvaluerecorditem
+		attrname="TagValue"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="fd8f145b-d407-4ace-a06b-235a8a318c03">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e549b4a8-dfba-4e4e-b6df-342267fe4e85"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, selecttag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="selecttag"
+				rect="628,401,250,31"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						dropPt
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						bp-onw-redbusnew@2000011929670074325
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						select
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						96965-Red Fort
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.goibibo.com']//select[#'bp-onw-redbusnew@2000011929670074325']
+				</path>
+			</info>
+			<AttributeValue>
+				96965-Red Fort
+			</AttributeValue>
+		</setvaluerecorditem>
+		<setvaluerecorditem
+		attrname="TagValue"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="5b4acfaf-bdcf-4598-a8e2-fdc6682a2676">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ad09b2eb-3353-46e9-94ee-f75dccc27637"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, selecttag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="selecttag"
+				rect="628,484,250,31"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						dropPt
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						dp-onw-redbusnew@2000011929670074325
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						select
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						66924-Agra Bypass Rd
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.goibibo.com']//select[#'dp-onw-redbusnew@2000011929670074325']
+				</path>
+			</info>
+			<AttributeValue>
+				66924-Agra Bypass Rd
+			</AttributeValue>
+		</setvaluerecorditem>
 		<mouseitem
-		action="DoubleClick"
+		action="Click"
 		button="Left"
 		duration="500ms"
 		enabled="True"
-		loc="31;14"
+		loc="21;7"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="c8b3aa84-fcaf-4983-a7b3-61a29bffd917"
-		sx="905"
-		sy="595"
+		searchpropertyid="e1af8a11-0448-4332-bc14-00b147285aac"
+		sx="895"
+		sy="588"
 		warnoutofbounds="False">
 			<comment>
 			</comment>
@@ -3098,7 +3256,7 @@ zpP+faX81/xo86T/AJ9pfzX/ABqWigCLzpP+faX81/xo86T/AJ9pfzX/ABqWigCLzpP+faX81/xo
 				</path>
 			</info>
 			<helperscreenshot
-			guid="ee611ae4-962b-4bec-b419-8fc7e8c12432">
+			guid="5954c7a7-03b1-4bac-9586-6368263af294">
 				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
 YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABDAK4DASIA
@@ -3111,33 +3269,30 @@ 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
-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
-AFFFFABRRRQAUUUUAf/Z
+sTUVD9stf+fmH/vsUfbLX/n5h/77FF0HJLsTUVD9stf+fmH/AL7FH2y1/wCfmH/vsUXQckuxNRUP
+2y1/5+Yf++xR9stf+fmH/vsUXQckuxNRUP2y1/5+Yf8AvsUfbLX/AJ+Yf++xRdByS7E1FQ/bLX/n
+5h/77FH2y1/5+Yf++xRdByS7E1FQ/bLX/n5h/wC+xR9stf8An5h/77FF0HJLsTUVD9stf+fmH/vs
+U5LmCRgqTxsx6BXBNF0HLLsSUUUUyQooooAwL5EfV7gOu4bRjk8cCo/s0P8Ac/U1Ld/8hmf/AHR/
+IUVxz+JnqqTUY2fREX2aH+5+po+zQ/3P1NWI49+STtVRkmoHRQDKplY/adnG4/L5WcbRnvzRGLkR
+Ks49RPs0P9z9TR9mh/ufqalhxOF8lkk3Y+6wOM+vp+NTJbSM6qcAE4zkHFLlkP2v94qfZof7n6mj
+7ND/AHP1NW2t248vLZycnA6fjSC3lIBCg56YYc/SizD2vmVfs0P9z9TR9mh/ufqasSRPHjcBz0wQ
+aesKYj3OwL9AFzjnHrRZh7R9yp9mh/ufqaPs0P8Ac/U1Z8iQswUA4bbnIGT7UiwyP0Xvjk459KLM
+ftH3K/2aH+5+po+zQ/3P1NWhbsY1ZeSSRjpjFH2dyAVGeMnJAH86LMXtX3Kv2aH+5+po+zQ/3P1N
+WfIk3EbQMDJJIxj602SNo22uMHrRqh+0b6kH2aH+5+pqa1jjj1a08tNoaMkjJPPzDv8ASkp8H/IW
+s/8Arm3/ALPVQ3CUm4u76P8AI26KKK6zywooooAwbv8A5DM/+6P5CilugTrNxgZwoJ/IUlcc/iZ6
+f2Y+iEklZLaRVDHdtzsALYDDOM+2avabagR+YZTKnnedE+MbgUCjI/E/lVKn2F2tmslvLuEYO6Iq
+hbAPUcDjB/nWtKS2ZzV4vdEl1aQ2xhnDHMJhjQ9wA2DyOuQ3T2p8M0ahdzYxLu6dsVUvp1vJoEjD
+GNGMjFkZeR0xke5/KloqS1VgowvF3LKTRiAKW52OOnc9KIpUX7PlsbN27jpVaisuZm3IiQsv2dUz
+8wYnH4CpVl/dxBZ/L2jkc+tVqKFJjcUy1JLFMR83lhXJ6HkH+tDzRzMrFtm1yeRnIJqrRRzsXIi5
+9ojaMoxIDs271APSkM0fkFA2T5e3oeuaqUUczF7NFpnSSHaGwAi5bBwCM8GmXmPOABJwoHP0qFXd
+DlGZfocUhJJJJyT3ocroajZhT4P+QtZ/9c2/9nplSQgrq9mCMHyj/wCzU4blPZ+j/I2qKKK6zzQo
+oooAz7jTJJbt7iO6aEuAPlHsO+famf2Zdf8AQSm/X/GtOip5UbKvUStf8EZn9mXX/QSm/X/Gj+zL
+r/oJTfr/AI1p0UciH9Yqf0kZn9mXX/QSm/X/ABo/sy6/6CU36/41p0UciD6xU/pIzP7Muv8AoJTf
+r/jR/Zl1/wBBKb9f8a06KORB9Yqf0kZn9mXX/QSm/X/Gj+zLr/oJTfr/AI1p0UciD6xU/pIzP7Mu
+v+glN+v+NH9mXX/QSm/X/GtOijkQfWKn9JGZ/Zl1/wBBKb9f8aP7Muv+glN+v+NadFHIg+sVP6SM
+z+zLr/oJTfr/AI0f2Zdf9BKb9f8AGtOijkQfWKn9JGZ/Zl1/0Epv1/xp9vpkkV2lxJdNMUBHzD2P
+fPvWhRRyoTr1GrX/AAQUUUVRiFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQB/9k=
 			</helperscreenshot>
 		</mouseitem>
 		<mousewheelitem
@@ -7852,100 +8007,6 @@ rndzz3qWii7CxHHCEYuXZ3IxubHT04FSUUUgCiiigBuT6mjJ9TRRQAZPqaMn1NFFABk+poyfU0UU
 AGT6mjJ9TRRQAZPqaMn1NFFABk+poyfU0UUAGT6mjJ9TRRQAZPqaMn1NFFABk+poyfU0UUAGT6mj
 J9TRRQAZPqaMn1NFFABk+poyfU0UUAGT6mjJ9TRRQAZPqaMn1NFFABk+poyfU0UUAGT6mjJ9TRRQ
 AZPqaKKKAP/Z
-			</helperscreenshot>
-		</mouseitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="500ms"
-		enabled="True"
-		loc="36;25"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="fbc90350-58e1-41a8-af41-1d099678cd7e"
-		sx="401"
-		sy="148"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="fbf7f186-ee21-4c12-a629-f54864fb294f"
-			sourcename="Recorder">
-				<element
-				capabilities="webelement, itag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="0"
-				prefcap="itag"
-				rect="365,123,38,38"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						icon-train-front-view db blue ico24 lh1-2 padT5 padB5
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						i
-					</attribute>
-				</element>
-				<path>
-					/dom[@domain='www.goibibo.com']//div[#'header']/div[1]/ul/?/?/a[@href~'^https://www\.goibibo\.com/t']/i
-				</path>
-			</info>
-			<helperscreenshot
-			guid="2c2311f9-f2fe-43d6-8b91-527e20a7e12b">
-				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
 			</helperscreenshot>
 		</mouseitem>
 	</recorditems>
