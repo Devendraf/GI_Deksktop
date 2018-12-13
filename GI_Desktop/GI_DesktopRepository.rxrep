@@ -3086,6 +3086,16 @@ yI+GPBml3miyGU02o8mGjBAYTTZkBBoAaXQ7YtCBxOQAAAAASUVORK5CYII=
 				searchtimeout="30000ms">
 					/dom[@domain='www.goibibo.com']/body/div[1]/div/div[2]/div/div[2]
 				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="8453f1a8-dd51-40fe-a3c6-9725f90cb46a"
+				name="Submit"
+				refimgid="babdbc78-0d2c-4a02-919c-c7cac569b180"
+				refpath="/dom[@domain='www.goibibo.com' and @caption='Hotel Booking']//div[#'netBank']/div[3]/div[3]/div[2]/input[@type='submit']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']/body/div[1]/div/div[2]/div[3]//input[@type='submit']
+				</item>
 				<basepath>
 					/dom[@domain='www.goibibo.com']/body/div[1]/div/div[2]
 				</basepath>
@@ -4770,6 +4780,56 @@ z9DKr5N/H/4FXTLOwyi/EtoAAAAASUVORK5CYII=
 				searchtimeout="30000ms">
 					/dom[@domain='www.goibibo.com']/body/div[6]/div/div[2]//ul//span[@innertext='Print Ticket']
 				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="3354b8c1-a10a-4e9e-8da5-459ffc4c1665"
+				name="Hostels"
+				refimgid="a213007e-b34e-4541-bc08-bdb8e22fc6fa"
+				refpath="/dom[@domain='www.goibibo.com']//div[#'srpContainer']/div[2]/div[2]/div/div[2]/div/div[1]/ul/li[5]/a/span[1]/span[@innertext='Hostels']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']/body/div[6]/div/div[2]//ul/li[5]//span[@innertext='Hostels']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="d020a530-cc35-401d-b9ec-0fddaf483516"
+				name="JavascriptVoid0"
+				refimgid="11f7f419-90ba-410e-bc3d-ffe1a2713f3b"
+				refpath="/dom[@domain='www.goibibo.com']//div[#'srpContainer']/div[2]/div[2]/div/div[2]/div/div[1]/ul/li[1]/a[@href='javascript:void(0);']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']/body/div[6]/div/div[2]//ul/li[1]/a[@href='javascript:void(0);']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="d592c987-ab20-453c-b067-7a7d5b207e74"
+				name="DivCustomCheck1"
+				refimgid="ce042435-5280-4b13-8d31-e14fb8617772"
+				refpath="/dom[@domain='www.goibibo.com']//div[#'srpContainer']/div[2]/div[2]/div/div[1]/div/ul/li[3]/div/div[2]/div"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']/body/div[6]/div/div[2]//ul/li[3]/div/div[2]/div
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="f73a6d33-58fd-4d61-80ef-eb947017753a"
+				name="Width100FlPadTB5PosRel"
+				refimgid="3966265a-7f56-4b87-9da5-27c6633d03cc"
+				refpath="/dom[@domain='www.goibibo.com']//div[#'srpContainer']/div[2]/div[2]/div/div[1]/div/ul/li[5]/div/div[4]"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']/body/div[6]/div/div[2]//ul/li[5]/div/div[4]
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="535643bb-902c-4977-ae4d-436f3fbe28f9"
+				name="DivCustomCheckIsSelected"
+				refimgid="35c3f39d-cbef-4e1e-b6b3-39029d6e0bc6"
+				refpath="/dom[@domain='www.goibibo.com']//div[#'srpContainer']/div[2]/div[2]/div/div[1]/div/ul/li[5]/div/div[4]/div"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']/body/div[6]/div/div[2]//ul/li[5]/div/div[4]/div
+				</item>
 				<basepath>
 					/dom[@domain='www.goibibo.com']/body/div[6]/div/div[2]//ul
 				</basepath>
@@ -4812,6 +4872,16 @@ z9DKr5N/H/4FXTLOwyi/EtoAAAAASUVORK5CYII=
 				refpath="/dom[2]/body/div[6]/div/div[2]/div[2]/div/div/div[4]/div[2]/div[1]/a[@innertext='goCash+']"
 				searchtimeout="30000ms">
 					/dom[@domain='www.goibibo.com']/body/div[6]/div/div[2]/div[2]/div/div/div[4]/div[2]/div[1]/a[@innertext='goCash+']
+				</item>
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="aae3bf9d-9861-4a2c-9f31-c2fc47114a61"
+				name="BookNow"
+				refimgid="65727760-d47d-43f2-a9bd-2dab3ec6ae21"
+				refpath="/dom[@domain='www.goibibo.com']//div[#'srpContainer']/div[2]/div[2]/div/div[2]/div/div[5]/div[1]/div/div/section[3]/div[2]/div/div[3]/div[2]/div[2]/button[@innertext='Book Now']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']/body/div[6]/div/div[2]/div[2]/div/div/div[4]/div[2]/div[1]/div[5]/div[1]/div/div/section[3]/div[2]/div/div[3]/div[2]/div[2]/button[@innertext='Book Now']
 				</item>
 				<basepath>
 					/dom[@domain='www.goibibo.com']/body/div[6]/div/div[2]/div[2]/div/div/div[4]/div[2]/div[1]
@@ -6854,6 +6924,16 @@ AElFTkSuQmCC
 					/dom[@domain='www.goibibo.com']//div[#'Home']/div[3]/div[1]/div[1]/div[3]//button[@innertext='Get Set Go']
 				</item>
 				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="e3a0d513-910f-4863-8436-b8d0f0b3df73"
+				name="Copy_of_GetSetGo"
+				refimgid="74178db9-fa56-4755-922c-b47dee0abadb"
+				refpath="/dom[@domain='www.goibibo.com']//div[#'Home']/div[3]/div[1]/div[1]/div[3]/div/div[3]/div/button[@innertext='Get Set Go']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']//div[#'Home']/div[3]/div[1]/div[1]/div[3]//button[@innertext='Get Set Go']
+				</item>
+				<item
 				addcaps="unknown,webelement,inputtag"
 				capname="inputtag"
 				id="7c690215-15bb-4ffe-81b7-b914feac5a6d"
@@ -7139,6 +7219,16 @@ AElFTkSuQmCC
 			refpath="/dom[@domain='www.goibibo.com' and @caption='Hotel Booking']//div[#'netBank']/div[3]/div[4]/div[2]/input[@type='submit']"
 			searchtimeout="30000ms">
 				/dom[@domain='www.goibibo.com']//div[#'netBank']/div[3]/div[4]/?/?/input[@type='submit']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="68935aaa-59fb-4a02-9437-5bb6312b0372"
+			name="Fare20190130"
+			refimgid="3f8faaad-2bb5-44cb-811c-25ba93c87711"
+			refpath="/dom[@domain='www.goibibo.com']//div[#'fare_20190130']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//div[#'fare_20190130']
 			</item>
 			<basepath>
 				/dom[@domain='www.goibibo.com']

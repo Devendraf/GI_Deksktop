@@ -183,6 +183,14 @@ rxversion="8.3">
 						</testmodule>
 					</testcase>
 					<testcase
+					id="0cc15067-0d5b-46d3-926c-5538cedcd915"
+					name="International_Hotel">
+						<testmodule
+						id="9a9059a5-8c79-41b7-a020-30765c71eda1"
+						name="International_hotel">
+						</testmodule>
+					</testcase>
+					<testcase
 					id="0ebd81ee-33d2-4c0a-b66c-8923467a9c67"
 					name="Bus_Vertical">
 						<testmodule
@@ -220,14 +228,6 @@ rxversion="8.3">
 						<testmodule
 						id="794fe770-6a79-4dde-81c0-5b7f2d8eb866"
 						name="Sign_out">
-						</testmodule>
-					</testcase>
-					<testcase
-					id="0cc15067-0d5b-46d3-926c-5538cedcd915"
-					name="International_Hotel">
-						<testmodule
-						id="9a9059a5-8c79-41b7-a020-30765c71eda1"
-						name="International_hotel">
 						</testmodule>
 					</testcase>
 				</testcase>
