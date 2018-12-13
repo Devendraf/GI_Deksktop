@@ -5910,6 +5910,36 @@ gIHuGECgI9DxlMEADMAADMAADMAADMAADMAADETAwP8PurBoTTK4qCgAAAAASUVORK5CYII=
 			searchtimeout="30000ms">
 				/dom[@domain='www.goibibo.com']//select[#'dp-onw-redbusnew@2000011929730074325']
 			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="81d34458-0356-4d91-aece-ad6b8aaa5fb1"
+			name="OnwRedbusnewAt200001192973000153036"
+			refimgid="c5a65253-25c7-41e0-892d-d81563505015"
+			refpath="/dom[@domain='www.goibibo.com' and @caption~'^Bus\ ticket\ booking\ online']//a[#'onw~redbusnew@2000011929730001530~36']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//a[#'onw~redbusnew@2000011929730001530~36']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="48fe6c5f-3cb9-47ef-8118-3ce0dd415bb4"
+			name="BpOnwRedbusnewAt2000011929730001530"
+			refimgid="98788c9d-6482-45c3-9e12-8ffb6884890e"
+			refpath="/dom[@domain='www.goibibo.com' and @caption~'^Bus\ ticket\ booking\ online']//select[#'bp-onw-redbusnew@2000011929730001530']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//select[#'bp-onw-redbusnew@2000011929730001530']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="1b6c6d51-b8b1-4fcf-9e63-e09a3646a689"
+			name="DpOnwRedbusnewAt2000011929730001530"
+			refimgid="95fe0381-ab50-46fa-a0e9-5b51361903de"
+			refpath="/dom[@domain='www.goibibo.com' and @caption~'^Bus\ ticket\ booking\ online']//select[#'dp-onw-redbusnew@2000011929730001530']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//select[#'dp-onw-redbusnew@2000011929730001530']
+			</item>
 			<basepath>
 				/dom[@domain='www.goibibo.com']
 			</basepath>

@@ -579,6 +579,9 @@ namespace GI_Desktop
             RepoItemInfo _onwredbusnewat200001192973007432540Info;
             RepoItemInfo _bponwredbusnewat2000011929730074325Info;
             RepoItemInfo _dponwredbusnewat2000011929730074325Info;
+            RepoItemInfo _onwredbusnewat200001192973000153036Info;
+            RepoItemInfo _bponwredbusnewat2000011929730001530Info;
+            RepoItemInfo _dponwredbusnewat2000011929730001530Info;
 
             /// <summary>
             /// Creates a new OnlineFlightBookingHotelsBusAmp  folder.
@@ -827,6 +830,9 @@ namespace GI_Desktop
                 _onwredbusnewat200001192973007432540Info = new RepoItemInfo(this, "OnwRedbusnewAt200001192973007432540", ".//a[#'onw~redbusnew@2000011929730074325~40']", 30000, null, "09c72cf0-bc03-465d-8aef-0b06a8493f69");
                 _bponwredbusnewat2000011929730074325Info = new RepoItemInfo(this, "BpOnwRedbusnewAt2000011929730074325", ".//select[#'bp-onw-redbusnew@2000011929730074325']", 30000, null, "84fef922-4419-4211-bbd0-d4e3462d5cfd");
                 _dponwredbusnewat2000011929730074325Info = new RepoItemInfo(this, "DpOnwRedbusnewAt2000011929730074325", ".//select[#'dp-onw-redbusnew@2000011929730074325']", 30000, null, "8fdbd7d2-04fa-415a-a17f-29e73ff08613");
+                _onwredbusnewat200001192973000153036Info = new RepoItemInfo(this, "OnwRedbusnewAt200001192973000153036", ".//a[#'onw~redbusnew@2000011929730001530~36']", 30000, null, "81d34458-0356-4d91-aece-ad6b8aaa5fb1");
+                _bponwredbusnewat2000011929730001530Info = new RepoItemInfo(this, "BpOnwRedbusnewAt2000011929730001530", ".//select[#'bp-onw-redbusnew@2000011929730001530']", 30000, null, "48fe6c5f-3cb9-47ef-8118-3ce0dd415bb4");
+                _dponwredbusnewat2000011929730001530Info = new RepoItemInfo(this, "DpOnwRedbusnewAt2000011929730001530", ".//select[#'dp-onw-redbusnew@2000011929730001530']", 30000, null, "1b6c6d51-b8b1-4fcf-9e63-e09a3646a689");
             }
 
             /// <summary>
@@ -6963,6 +6969,78 @@ namespace GI_Desktop
                 get
                 {
                     return _dponwredbusnewat2000011929730074325Info;
+                }
+            }
+
+            /// <summary>
+            /// The OnwRedbusnewAt200001192973000153036 item.
+            /// </summary>
+            [RepositoryItem("81d34458-0356-4d91-aece-ad6b8aaa5fb1")]
+            public virtual Ranorex.ATag OnwRedbusnewAt200001192973000153036
+            {
+                get
+                {
+                    return _onwredbusnewat200001192973000153036Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The OnwRedbusnewAt200001192973000153036 item info.
+            /// </summary>
+            [RepositoryItemInfo("81d34458-0356-4d91-aece-ad6b8aaa5fb1")]
+            public virtual RepoItemInfo OnwRedbusnewAt200001192973000153036Info
+            {
+                get
+                {
+                    return _onwredbusnewat200001192973000153036Info;
+                }
+            }
+
+            /// <summary>
+            /// The BpOnwRedbusnewAt2000011929730001530 item.
+            /// </summary>
+            [RepositoryItem("48fe6c5f-3cb9-47ef-8118-3ce0dd415bb4")]
+            public virtual Ranorex.SelectTag BpOnwRedbusnewAt2000011929730001530
+            {
+                get
+                {
+                    return _bponwredbusnewat2000011929730001530Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BpOnwRedbusnewAt2000011929730001530 item info.
+            /// </summary>
+            [RepositoryItemInfo("48fe6c5f-3cb9-47ef-8118-3ce0dd415bb4")]
+            public virtual RepoItemInfo BpOnwRedbusnewAt2000011929730001530Info
+            {
+                get
+                {
+                    return _bponwredbusnewat2000011929730001530Info;
+                }
+            }
+
+            /// <summary>
+            /// The DpOnwRedbusnewAt2000011929730001530 item.
+            /// </summary>
+            [RepositoryItem("1b6c6d51-b8b1-4fcf-9e63-e09a3646a689")]
+            public virtual Ranorex.SelectTag DpOnwRedbusnewAt2000011929730001530
+            {
+                get
+                {
+                    return _dponwredbusnewat2000011929730001530Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DpOnwRedbusnewAt2000011929730001530 item info.
+            /// </summary>
+            [RepositoryItemInfo("1b6c6d51-b8b1-4fcf-9e63-e09a3646a689")]
+            public virtual RepoItemInfo DpOnwRedbusnewAt2000011929730001530Info
+            {
+                get
+                {
+                    return _dponwredbusnewat2000011929730001530Info;
                 }
             }
 
