@@ -57,7 +57,7 @@ AElFTkSuQmCC
 		id="1840db08-1c2c-407c-8cca-2577a5cfd67e"
 		isrooted="True"
 		name="OnlineFlightBookingHotelsBusAmp"
-		refimgid="fc0e6c88-4f77-4290-8865-643f12d3f54c"
+		refimgid="916e83cc-5f8b-470a-a698-132720746dbb"
 		refpath="/dom[@domain='www.goibibo.com']"
 		searchtimeout="30000ms"
 		usecache="False">
@@ -3105,6 +3105,36 @@ yI+GPBml3miyGU02o8mGjBAYTTZkBBoAaXQ7YtCBxOQAAAAASUVORK5CYII=
 				refpath="/dom[@domain='www.goibibo.com' and @caption='Hotel Booking']//div[#'netBank']/div[3]/div[3]/div[2]/input[@type='submit']"
 				searchtimeout="30000ms">
 					/dom[@domain='www.goibibo.com']/body/div[1]/div/div[2]/div[3]//input[@type='submit']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="242ba9bf-97c9-49f8-b9a1-50432565335b"
+				name="ButtonOutlineGreenDibAccordianHdr1"
+				refimgid="2d19ed49-830c-49f3-bdd7-88bd56cb6aa4"
+				refpath="/dom[@domain='www.goibibo.com']/body/div[1]/div/div[2]/div[5]/section/div[1]/div[3]/a"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']/body/div[1]/div/div[2]/div[5]/section//a
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="10cf30bb-b69b-4658-8a73-625570028a61"
+				name="LiTag2A1"
+				refimgid="60bfcd71-4514-4104-a4eb-116b062f672a"
+				refpath="/dom[@domain='www.goibibo.com']/body/div[1]/div/div[2]/div[5]/section/div[2]/div[1]/div[1]/ul/li[@innertext='2A']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']/body/div[1]/div/div[2]/div[5]/section//ul/li[@innertext='2A']
+				</item>
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="fbceffb1-0d66-4c98-b06d-2e6480118c95"
+				name="BOOKNOW6"
+				refimgid="3286cdbe-a18b-405f-a7a5-cd907ebcb75d"
+				refpath="/dom[@domain='www.goibibo.com']/body/div[1]/div/div[2]/div[5]/section/div[2]/div[2]/div[1]/div/div[2]/button[@innertext='BOOK NOW']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']/body/div[1]/div/div[2]/div[5]/section//button[@innertext='BOOK NOW']
 				</item>
 				<basepath>
 					/dom[@domain='www.goibibo.com']/body/div[1]/div/div[2]
@@ -7566,6 +7596,556 @@ BlAbJA507CLemEzS+RfsVV1GX1PHyz6vGEi9VIx7Zh3nmI/rJYPsz6tld8E+EjKucijFymntU173
 zmDtmRUDZzIKcU2uKaOyO72Ympo5dq6AhNRyKsxvleS+b0tI7z1iQKW5hXNibaMPQSY864xNBXD8
 WlXG9uX78kbyIh8GF2MDiepceod9tHWP86zrJ086RzE//0G91Um1xUGl9CcqJJe4goSz2crG/8bm
 X/kbNG0rDiYbOAsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<folder
+		capname="unknown"
+		id="1904d11f-d73a-4590-a996-06eccaeed346"
+		isrooted="False"
+		name="Train"
+		searchtimeout="0ms">
+			<appfolder
+			addcaps="container,webdocument"
+			capname="webdocument"
+			id="dd66ac9a-3b95-4a7d-a970-855b30a73ccb"
+			isrooted="True"
+			name="OnlineHotelBookingBookCheapBudge"
+			refpath="/dom[@domain='www.goibibo.com' and @caption='Online Hotel Booking | Book Cheap, Budget and Luxury Hotels -Goibibo']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="7223f3db-6de2-4f13-abbc-44a39f74f945"
+				name="HttpsGoibiboIbcdnComStyleguideIma"
+				refimgid="1bd06ae3-3715-47ef-97cf-41738ac9e1da"
+				refpath="/dom[@domain='www.goibibo.com' and @caption~'^Online\ Hotel\ Booking\ \|\ Bo']//div[#'header']/div[1]/a/img[@src='https://goibibo.ibcdn.com/styleguide/images/goLogo.png']"
+				searchtimeout="30000ms">
+					/dom[@caption~'^Online\ Hotel\ Booking\ \|\ Bo']//div[#'header']//img[@src='https://goibibo.ibcdn.com/styleguide/images/goLogo.png']
+				</item>
+				<basepath>
+					/dom[@caption~'^Online\ Hotel\ Booking\ \|\ Bo']
+				</basepath>
+				<icon>
+					iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43T3UvTURjAcS/6G4Kgyy6KKKjwJogIDBJjIBWZ7MIh
+5cDKzDILZ0bmhduYaWq+kS4xo990aC/24qwkJUjmS7nV1JYoynRuvk739s3fr7zyLDrw8Ls45/mc
+5zwPv7i4v6uh9SO1LV1UNHVS+qiDkupW7pa3oDM8Jre4nqzCKjbPCr9y8r9WvsGsYDER+eZQOBrT
+kAHn+HRsxLRR9npQDIQjUWTgSPJFJeIT07dWIr95dW0rEI6gwCuBCAvLYdyekBiQG7YJeFfmqOpo
+p9zahs6SSamlEdfUAt6FEI6JgBiQGyTfICcbbHqGow7s0X6K7Nc4nCdxofIVQ24fA6PLYkAelX8p
+Qk27jfyvyTTMa6mxt6AxTnO8zMOexhOY2uv4PLIkBuQ5z/nD3HvQTZo1CfUbFVkmN9llcLC6kO2t
+OzlZcIWeIb8Y0N68z/R8iDsPXejKPpHWnILKVkSK0c+pzBvsuL2NoznpvOufFwOaHD2Ts0GqpBG0
+BlAbJA507CLemEzS+RfsVV1GX1PHyz6vGEi9VIx7Zh3nmI/rJYPsz6tld8E+EjKucijFymntU173
+zmDtmRUDZzIKcU2uKaOyO72Ympo5dq6AhNRyKsxvleS+b0tI7z1iQKW5hXNibaMPQSY864xNBXD8
+WlXG9uX78kbyIh8GF2MDiepceod9tHWP86zrJ086RzE//0G91Um1xUGl9CcqJJe4goSz2crG/8bm
+X/kbNG0rDiYbOAsAAAAASUVORK5CYII=
+				</icon>
+			</appfolder>
+			<appfolder
+			addcaps="container,webdocument"
+			capname="webdocument"
+			id="998fe0f2-7f68-4061-ae3c-9f18bae1d307"
+			isrooted="True"
+			name="OnlineFlightBookingHotelsBusAmp"
+			refpath="/dom[@domain='www.goibibo.com' and @caption='Online flight booking, Hotels, Bus &amp;amp; Holiday Packages at Goibibo']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,itag"
+				capname="itag"
+				id="5983c25f-33e9-46b8-bacc-762482473201"
+				name="IconTrainFrontViewDbBlueIco24Lh1"
+				refimgid="3324c301-5f2f-4c75-9e44-632a63c4c802"
+				refpath="/dom[@domain='www.goibibo.com' and @caption~'^Online\ flight\ booking,\ Ho']//div[#'header']/div[1]/ul/li[5]/a/i"
+				searchtimeout="30000ms">
+					/dom[@caption~'^Online\ flight\ booking,\ Ho']//div[#'header']/div[1]/ul/?/?/a[@href~'^https://www\.goibibo\.com/t']/i
+				</item>
+				<basepath>
+					/dom[@caption~'^Online\ flight\ booking,\ Ho']
+				</basepath>
+				<icon>
+					iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43T3UvTURjAcS/6G4Kgyy6KKKjwJogIDBJjIBWZ7MIh
+5cDKzDILZ0bmhduYaWq+kS4xo990aC/24qwkJUjmS7nV1JYoynRuvk739s3fr7zyLDrw8Ls45/mc
+5zwPv7i4v6uh9SO1LV1UNHVS+qiDkupW7pa3oDM8Jre4nqzCKjbPCr9y8r9WvsGsYDER+eZQOBrT
+kAHn+HRsxLRR9npQDIQjUWTgSPJFJeIT07dWIr95dW0rEI6gwCuBCAvLYdyekBiQG7YJeFfmqOpo
+p9zahs6SSamlEdfUAt6FEI6JgBiQGyTfICcbbHqGow7s0X6K7Nc4nCdxofIVQ24fA6PLYkAelX8p
+Qk27jfyvyTTMa6mxt6AxTnO8zMOexhOY2uv4PLIkBuQ5z/nD3HvQTZo1CfUbFVkmN9llcLC6kO2t
+OzlZcIWeIb8Y0N68z/R8iDsPXejKPpHWnILKVkSK0c+pzBvsuL2NoznpvOufFwOaHD2Ts0GqpBG0
+BlAbJA507CLemEzS+RfsVV1GX1PHyz6vGEi9VIx7Zh3nmI/rJYPsz6tld8E+EjKucijFymntU173
+zmDtmRUDZzIKcU2uKaOyO72Ympo5dq6AhNRyKsxvleS+b0tI7z1iQKW5hXNibaMPQSY864xNBXD8
+WlXG9uX78kbyIh8GF2MDiepceod9tHWP86zrJ086RzE//0G91Um1xUGl9CcqJJe4goSz2crG/8bm
+X/kbNG0rDiYbOAsAAAAASUVORK5CYII=
+				</icon>
+			</appfolder>
+			<appfolder
+			addcaps="container,webdocument"
+			capname="webdocument"
+			id="b788bb0e-3dc0-404a-920a-d6c82937cb00"
+			isrooted="True"
+			name="TrainTicketBookingIRCTCTicketBooki"
+			refimgid="0e27a364-27df-4dad-81ad-0a95720d92cb"
+			refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="ff0f85f3-6030-4356-81f1-b63d604a8383"
+				name="MainTxt"
+				refimgid="0aa18187-6a30-4150-9563-8b7d2c78c4ff"
+				refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']//li[#'react-autosuggest-1-suggestion--0']/div/div[1]/div"
+				searchtimeout="30000ms">
+					/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']//li[#'react-autosuggest-1-suggestion--0']/div/div[1]/div
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="da98c156-da58-4fa9-b384-b924d3af7133"
+				name="KalyanJunction"
+				refimgid="e0712b74-0a31-4ed3-a648-5254ca1907b7"
+				refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']//li[#'react-autosuggest-1-suggestion--1']/div/div[1]/div/span[@innertext='Kalyan Junction']"
+				searchtimeout="30000ms">
+					/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']//li[#'react-autosuggest-1-suggestion--1']/div/div[1]/?/?/span[@innertext='Kalyan Junction']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="c8741735-a7b2-4248-b585-12c505ff041f"
+				name="GiSearchBtn"
+				refimgid="2868a4df-1db7-4a95-ab9c-c9b16eb94853"
+				refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']//input[#'gi_search_btn']"
+				searchtimeout="30000ms">
+					/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']//input[#'gi_search_btn']
+				</item>
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="2bb5a546-72ac-4e65-9cac-30a4c6d3560f"
+				name="ButtonTagYes"
+				refimgid="9d16cac1-761b-4e81-a479-3ad5d37826c1"
+				refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']//div[#'irctcPop']/div/div/div/div[2]/button[@innertext='Yes']"
+				searchtimeout="30000ms">
+					/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']//div[#'irctcPop']/div/div/div/?/?/button[@innertext='Yes']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="938879a6-2542-43de-af2c-f90d536a4b06"
+				name="NetBanking"
+				refimgid="21c27141-7938-4a65-8e5c-b075a5ecd3de"
+				refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']//ul[#'tabnav_opts']/li[4]/a[@innertext='Net Banking']"
+				searchtimeout="30000ms">
+					/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']//ul[#'tabnav_opts']/?/?/a[@innertext='Net Banking']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="cdad7263-cc3f-4cf3-98a1-7964195c48ac"
+				name="GreyBgBorderAllPad10FlWidth100"
+				refimgid="a043b459-d7a8-4e50-aa1c-ffce57adfcfb"
+				refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']//div[#'netBank']/div[2]/div[6]/label"
+				searchtimeout="30000ms">
+					/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']//div[#'netBank']/div[2]/div[6]/label
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="d9ccc5f0-79f8-4d9d-ba91-d8389e37e48b"
+				name="Submit"
+				refimgid="7c1cb698-001e-443b-b795-29fb6f5f0439"
+				refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']//div[#'netBank']/div[3]/div[4]/div[2]/input[@type='submit']"
+				searchtimeout="30000ms">
+					/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']//div[#'netBank']/div[3]/div[4]/?/?/input[@type='submit']
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="08cb2e9f-2363-4714-8fd3-07bf573545de"
+				name="HttpsGoibiboIbcdnComStyleguideIma"
+				refimgid="1ace7917-46ed-4c04-80dd-5a4e7966b15d"
+				refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']//div[#'header']/div[1]/a/img[@src='https://goibibo.ibcdn.com/styleguide/images/goLogo.png']"
+				searchtimeout="30000ms">
+					/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']//div[#'header']//img[@src='https://goibibo.ibcdn.com/styleguide/images/goLogo.png']
+				</item>
+				<folder
+				addcaps="unknown,webelement,formtag"
+				capname="form"
+				id="4f0024e2-4150-44fc-9d47-d46411dbc5a3"
+				isrooted="True"
+				name="GiSearch"
+				refpath="/dom[@domain='www.goibibo.com' and @caption='Train Ticket Booking, IRCTC Ticket Booking, Indian Railways Reservation-Goibibo']//form[#'gi_search']"
+				searchtimeout="30000ms"
+				usecache="False">
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="7e1ff9e8-9fba-450e-891e-8aceb11d16eb"
+					name="GosuggestInputL1"
+					refimgid="4122039d-469c-4afe-aa10-451fcc750629"
+					refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']//form[#'gi_search']/div/div[2]/input[@id='gosuggest_inputL']"
+					searchtimeout="30000ms">
+						/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']//form[#'gi_search']//input[@type='text' and @value='']
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="f42d236c-a661-417a-94d5-0e6c9afad353"
+					name="GosuggestInputL"
+					refimgid="54ba3060-550a-4766-8630-282072331f79"
+					refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']//form[#'gi_search']/div/div[2]/input[@id='gosuggest_inputL']"
+					searchtimeout="30000ms">
+						/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']//form[#'gi_search']//input[@type='text' and @value='Kalyan Junction']
+					</item>
+					<item
+					addcaps="unknown,webelement,selecttag"
+					capname="selecttag"
+					id="440c57cb-00c1-415d-85eb-c5ad2bf93b10"
+					name="GiClassName"
+					refimgid="5b374963-5ccd-44b5-b6e9-2bf8b3d6a0b2"
+					refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']//form[#'gi_search']/div/div[3]/div[2]/select[@name='gi_className']"
+					searchtimeout="30000ms">
+						/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']//form[#'gi_search']/div/div[3]/?/?/select[@name='gi_className']
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="52487fbc-56dc-4bd1-97c8-3d38af420ac0"
+					name="Text"
+					refimgid="5d47e8cb-bbd3-4054-b690-f9c687bdc895"
+					refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']//form[#'gi_search']/div/div[3]/div[1]/div/div/input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']//form[#'gi_search']/div/div[3]/div[1]//input[@type='text']
+					</item>
+					<item
+					addcaps="unknown,webelement,spantag"
+					capname="spantag"
+					id="08be42f2-0208-4f2a-9a3b-1d1635c7045e"
+					name="DayPickerNavButtonDayPickerNavButton"
+					refimgid="3e6847ac-2fa7-46ef-842a-7b5bc53fd92c"
+					refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']//form[#'gi_search']/div/div[3]/div[1]/div/div/div/div[1]/span[2]"
+					searchtimeout="30000ms">
+						/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']//form[#'gi_search']/div/div[3]/div[1]/div/div/div/div[1]/span[2]
+					</item>
+					<item
+					addcaps="unknown,webelement,divtag"
+					capname="divtag"
+					id="743a35dd-f78c-4f3e-af6f-40acf285092b"
+					name="DivTag14"
+					refimgid="5cf8820d-c476-471e-9694-9f03b695d630"
+					refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']//form[#'gi_search']/div/div[3]/div[1]/div/div/div/div[2]/div[3]/div[3]/div[@innertext='14']"
+					searchtimeout="30000ms">
+						/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']//form[#'gi_search']/div/div[3]/div[1]/div/div/div/div[2]/div[3]/div[3]/div[@innertext='14']
+					</item>
+					<item
+					addcaps="unknown,webelement,divtag"
+					capname="divtag"
+					id="77a5df24-0906-404c-8a21-5b244e0ab4f7"
+					name="DivTag17"
+					refimgid="b2e4910b-17f6-4aa6-8d3c-614e260ab062"
+					refpath="/dom[@domain='www.goibibo.com']//form[#'gi_search']/div/div[3]/div[1]/div/div/div/div[2]/div[3]/div[3]/div[@innertext='17']"
+					searchtimeout="30000ms">
+						/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']//form[#'gi_search']/div/div[3]/div[1]/div/div/div/div[2]/div[3]/div[3]/div[@innertext='17']
+					</item>
+					<basepath>
+						/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']//form[#'gi_search']
+					</basepath>
+				</folder>
+				<folder
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="fa4c88f3-2e55-4dc2-88a9-793d7c17c7dc"
+				isrooted="True"
+				name="SomeDivTag"
+				refpath="/dom[@domain='www.goibibo.com' and @caption='Train Ticket Booking, IRCTC Ticket Booking, Indian Railways Reservation-Goibibo']/body/div[1]/div"
+				searchtimeout="30000ms"
+				usecache="False">
+					<item
+					addcaps="unknown,webelement,spantag"
+					capname="spantag"
+					id="899b5123-ec8c-4de8-ba26-6983f521a2c7"
+					name="BookAgain"
+					refimgid="6830cbb5-ad11-4287-813c-b37d5e6ecc7b"
+					refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[1]/section/section/div/div/div[2]/span[2]/span[@innertext='Book Again']"
+					searchtimeout="30000ms">
+						/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[1]/section/section//span[@innertext='Book Again']
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="3d05de1f-0094-42ac-8f27-5c74f7598b18"
+					name="Number"
+					refimgid="1e799103-99d2-416a-8035-1fc3b206ab86"
+					refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]/div/div[2]/div[2]/form/div[1]/div[2]/div/div[2]/input[@type='number']"
+					searchtimeout="30000ms">
+						/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]//form[@action='https://www.goibibo.com/trains/booking']/div[1]/div[2]//input[@type='number']
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="7f4d9668-dfa1-4982-8efc-0a533069a762"
+					name="Text1"
+					refimgid="68b68944-c755-4759-9787-c261bc9fb029"
+					refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]/div/div[2]/div[2]/form/div[1]/div[2]/div/div[1]/div[2]/input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]//form[@action='https://www.goibibo.com/trains/booking']/div[1]/div[2]//input[@type='text']
+					</item>
+					<item
+					addcaps="unknown,webelement,selecttag"
+					capname="selecttag"
+					id="baf93480-04b3-4be6-a28a-1af7d1a9862f"
+					name="FormControlInputMedium"
+					refimgid="e3554074-e3a1-4e59-9a7f-df0a15a0d7a9"
+					refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]/div/div[2]/div[2]/form/div[1]/div[2]/div/div[1]/div[1]/select"
+					searchtimeout="30000ms">
+						/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]//form[@action='https://www.goibibo.com/trains/booking']/div[1]/div[2]//select
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="3f0336de-66d7-4244-a10f-565bc5522923"
+					name="Text2"
+					refimgid="37d1afea-103b-4589-ba32-f8ccb0e256cd"
+					refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]/div/div[2]/div[2]/form/div[7]/div[2]/div[2]/div[1]/input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]//form[@action='https://www.goibibo.com/trains/booking']/div[7]/div[2]//input[@type='text']
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="dce57676-4da0-4151-bc2e-3feb152be241"
+					name="Text3"
+					refimgid="caa3310c-43b7-46e3-b808-b2591fa285f3"
+					refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]/div/div[2]/div[2]/form/div[7]/div[3]/div[2]/div[1]/div[2]/input[@type='text']"
+					searchtimeout="30000ms">
+						/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]//form[@action='https://www.goibibo.com/trains/booking']/div[7]/div[3]//input[@type='text']
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="47a96d85-c9fa-445f-ac55-7ba1df039101"
+					name="Button"
+					refimgid="5c11610e-3543-40a1-ab64-ab836bd712f4"
+					refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]/div/div[2]/div[2]/form/div[8]/div[2]/input[@type='button']"
+					searchtimeout="30000ms">
+						/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]//form[@action='https://www.goibibo.com/trains/booking']/div[8]/?/?/input[@type='button']
+					</item>
+					<item
+					addcaps="unknown,webelement,itag"
+					capname="itag"
+					id="61b04c47-6a5d-44e3-baab-b32eace67570"
+					name="IconInfoIco14GreyPadT5"
+					refimgid="e45e3ee9-10ee-40e1-b421-6aac9d7f5874"
+					refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]/div/div[2]/div[3]/div[2]/a/i"
+					searchtimeout="30000ms">
+						/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]/div/div[2]/div[3]//i
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="a34bca59-ddc1-498a-a07e-234f53496a88"
+					name="Button1"
+					refimgid="8e150169-dbb2-4298-b795-8f3eab8fdf3f"
+					refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]/div/div[2]/div[3]/div[2]/input[@type='button']"
+					searchtimeout="30000ms">
+						/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]/div/div[2]/div[3]/?/?/input[@type='button']
+					</item>
+					<item
+					addcaps="unknown,webelement,atag"
+					capname="atag"
+					id="2aabb83d-3793-4c22-9998-ed6a6b3d0a8e"
+					name="FrIconCloseFont12LtPopClose"
+					refimgid="54e9db6e-55b5-40f1-ac41-23960587e568"
+					refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]/div/div[2]/div[3]/div[3]/div[2]/div/a"
+					searchtimeout="30000ms">
+						/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]/div/div[2]/div[3]/div[3]//a
+					</item>
+					<item
+					addcaps="unknown,webelement,buttontag"
+					capname="buttontag"
+					id="e25204fe-7b7e-4048-9cb9-482b3939f594"
+					name="BOOKNOW"
+					refimgid="d388367a-5c4c-4360-8134-8852f6fff2a6"
+					refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]/div[3]/section/div[2]/div[2]/div[1]/div/div[2]/button[@innertext='BOOK NOW']"
+					searchtimeout="30000ms">
+						/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]/div[3]/section//button[@innertext='BOOK NOW']
+					</item>
+					<item
+					addcaps="unknown,webelement,spantag"
+					capname="spantag"
+					id="1e032281-c8a8-40e3-ad5e-999a528df398"
+					name="CheckAvailability"
+					refimgid="9895c33c-43a1-4b56-8f64-adabb9bcc5d2"
+					refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]/div[3]/section/div[1]/div[3]/a/span[@innertext='Check Availability']"
+					searchtimeout="30000ms">
+						/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]/div[3]/section//span[@innertext='Check Availability']
+					</item>
+					<item
+					addcaps="unknown,webelement,litag"
+					capname="litag"
+					id="03167395-7d91-4216-9de4-b2e0b2d6e3a5"
+					name="LiTag3A"
+					refimgid="c37629e2-a396-41db-a785-bda92852d70a"
+					refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]/div[3]/section/div[2]/div[1]/div[1]/ul/li[@innertext='3A']"
+					searchtimeout="30000ms">
+						/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]/div[3]/section//ul/li[@innertext='3A']
+					</item>
+					<item
+					addcaps="unknown,webelement,litag"
+					capname="litag"
+					id="7550f944-f9b0-45b5-89e5-27a361ccacf7"
+					name="LiTagSL"
+					refimgid="c47d189a-d549-4316-9952-4301d96c0737"
+					refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]/div[3]/section/div[2]/div[1]/div[1]/ul/li[@innertext='SL']"
+					searchtimeout="30000ms">
+						/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]/div[3]/section//ul/li[@innertext='SL']
+					</item>
+					<item
+					addcaps="unknown,webelement,inputtag"
+					capname="inputtag"
+					id="8880d0fb-79fe-474a-aabf-463b75d61b4a"
+					name="Date12618"
+					refimgid="a0e46670-c70c-4866-9b27-a5beccc0d0e3"
+					refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]/div[3]/section/div[2]/div[2]/div[1]/ul/li[2]/span[@innertext='Fri 15'' Mar']/input[@name='date_12618']"
+					searchtimeout="30000ms">
+						/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div/div[2]/div[3]/section/div[2]/div[2]/div[1]/ul/li[2]/span[@innertext='Fri 15'' Mar']/input[@name='date_12618']
+					</item>
+					<basepath>
+						/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']/body/div[1]/div
+					</basepath>
+				</folder>
+				<basepath>
+					/dom[@caption~'^Train\ Ticket\ Booking,\ IRC']
+				</basepath>
+				<icon>
+					iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43T3UvTURjAcS/6G4Kgyy6KKKjwJogIDBJjIBWZ7MIh
+5cDKzDILZ0bmhduYaWq+kS4xo990aC/24qwkJUjmS7nV1JYoynRuvk739s3fr7zyLDrw8Ls45/mc
+5zwPv7i4v6uh9SO1LV1UNHVS+qiDkupW7pa3oDM8Jre4nqzCKjbPCr9y8r9WvsGsYDER+eZQOBrT
+kAHn+HRsxLRR9npQDIQjUWTgSPJFJeIT07dWIr95dW0rEI6gwCuBCAvLYdyekBiQG7YJeFfmqOpo
+p9zahs6SSamlEdfUAt6FEI6JgBiQGyTfICcbbHqGow7s0X6K7Nc4nCdxofIVQ24fA6PLYkAelX8p
+Qk27jfyvyTTMa6mxt6AxTnO8zMOexhOY2uv4PLIkBuQ5z/nD3HvQTZo1CfUbFVkmN9llcLC6kO2t
+OzlZcIWeIb8Y0N68z/R8iDsPXejKPpHWnILKVkSK0c+pzBvsuL2NoznpvOufFwOaHD2Ts0GqpBG0
+BlAbJA507CLemEzS+RfsVV1GX1PHyz6vGEi9VIx7Zh3nmI/rJYPsz6tld8E+EjKucijFymntU173
+zmDtmRUDZzIKcU2uKaOyO72Ympo5dq6AhNRyKsxvleS+b0tI7z1iQKW5hXNibaMPQSY864xNBXD8
+WlXG9uX78kbyIh8GF2MDiepceod9tHWP86zrJ086RzE//0G91Um1xUGl9CcqJJe4goSz2crG/8bm
+X/kbNG0rDiYbOAsAAAAASUVORK5CYII=
+				</icon>
+			</appfolder>
+			<appfolder
+			addcaps="container,webdocument"
+			capname="webdocument"
+			id="ebb92278-b468-4b69-97f9-7a4dd2e9c4bd"
+			isrooted="True"
+			name="StateBankOfIndiaInternetBanking"
+			refpath="/dom[@domain='merchant.onlinesbi.com']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="d315bb43-de1f-49ea-b878-eb40edb789d2"
+				name="ClickHere"
+				refimgid="c4a6deb2-fb42-4f3a-9a8c-4250d4a6ccd2"
+				refpath="/dom[@domain='merchant.onlinesbi.com']//div[#'login_block']/div[5]/ul/li[@innertext~'^\ to\ abort\ this\ transactio']/a[@innertext='Click here']"
+				searchtimeout="30000ms">
+					/dom[@domain='merchant.onlinesbi.com']//div[#'login_block']/div[5]/ul/?/?/a[@innertext='Click here']
+				</item>
+				<basepath>
+					/dom[@domain='merchant.onlinesbi.com']
+				</basepath>
+				<icon>
+					iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43T3UvTURjAcS/6G4Kgyy6KKKjwJogIDBJjIBWZ7MIh
+5cDKzDILZ0bmhduYaWq+kS4xo990aC/24qwkJUjmS7nV1JYoynRuvk739s3fr7zyLDrw8Ls45/mc
+5zwPv7i4v6uh9SO1LV1UNHVS+qiDkupW7pa3oDM8Jre4nqzCKjbPCr9y8r9WvsGsYDER+eZQOBrT
+kAHn+HRsxLRR9npQDIQjUWTgSPJFJeIT07dWIr95dW0rEI6gwCuBCAvLYdyekBiQG7YJeFfmqOpo
+p9zahs6SSamlEdfUAt6FEI6JgBiQGyTfICcbbHqGow7s0X6K7Nc4nCdxofIVQ24fA6PLYkAelX8p
+Qk27jfyvyTTMa6mxt6AxTnO8zMOexhOY2uv4PLIkBuQ5z/nD3HvQTZo1CfUbFVkmN9llcLC6kO2t
+OzlZcIWeIb8Y0N68z/R8iDsPXejKPpHWnILKVkSK0c+pzBvsuL2NoznpvOufFwOaHD2Ts0GqpBG0
+BlAbJA507CLemEzS+RfsVV1GX1PHyz6vGEi9VIx7Zh3nmI/rJYPsz6tld8E+EjKucijFymntU173
+zmDtmRUDZzIKcU2uKaOyO72Ympo5dq6AhNRyKsxvleS+b0tI7z1iQKW5hXNibaMPQSY864xNBXD8
+WlXG9uX78kbyIh8GF2MDiepceod9tHWP86zrJ086RzE//0G91Um1xUGl9CcqJJe4goSz2crG/8bm
+X/kbNG0rDiYbOAsAAAAASUVORK5CYII=
+				</icon>
+			</appfolder>
+		</folder>
+		<appfolder
+		addcaps="container"
+		capname="container"
+		id="6ee57ec5-c3ee-4a2b-b298-8e61aa9f12f5"
+		isrooted="True"
+		name="Dropdown"
+		refimgid="92dfea6c-61c7-411e-9aa9-d6e3b7cbd442"
+		refpath="/container[@caption='dropdown']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/container[@caption='dropdown']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAABgUlEQVQ4T8WPvUsCcRjHb++F/oSGiMiiV4qWakiiqWyJGiK0cmxw
+kUhtMHqzTuWC0KKh2ZBqsTSHlt6oNkENBPWOoJZCKt++3c/fWRcVlg09x4fnhec+9xzD/DX6HBG0
+cXE02gXUWwUobDzqWB4Ndl7seVSLdZUlBgUroNZ6i1ZbFJ3zl+D8UeS+Xa71omLch1KNF2VizkP6
+EjWF1DX6E1TqztA+tYfBoRnouR24XC4w5v0IApE4rsIxXIfjMuR9DOfBKC5ETkMCfME7jEw7wbIs
+mI3je+Qji48PmX81I/PuyTUqWPcL0vtJMRciJe6kctIerZ0KHEdxmYAsFJIkqWCClX7BG/3FBURO
+LkhDqVmhgs3DSBGCDJTqJSrY8twUJxhboIJtTygnyCIjkc6d+D1kL4ve0TkqcO4G8JhI4iHxIvIs
+8iTVpP9MfvdNoJ49QMcwh2aVRWJZVudn77mpfxEtqlV0DejoBSQ4joPJZILRaPwRBoMBZrMZbreb
+Cv41XgFSqqerh1/qsAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="fce7c0db-f32d-4bbb-9792-eaa904605414"
+		isrooted="True"
+		name="TrainTicketBookingIRCTCTicketBooki"
+		refpath="/form[@title='Train Ticket Booking, IRCTC Ticket Booking, Indian Railways Reservation-Goibibo - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="172eb48e-9f55-49f1-9033-aa467091fe18"
+			name="Pane"
+			refimgid="0ebb26bd-aaa9-4265-a490-9e6c4b024290"
+			refpath="/form[@title~'^Train\ Ticket\ Booking,\ IRC']/container/container/container[2]/container[1]/container[@accessiblerole='Pane']"
+			searchtimeout="30000ms">
+				/form[@title~'^Train\ Ticket\ Booking,\ IRC']/container[@accessiblename~'^Train\ Ticket\ Booking,\ IRC']/container[@accessiblename='Google Chrome']/container[2]/container[1]/container[@accessiblerole='Pane']
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="10bc59c5-46bc-47d4-a887-cebe15effcae"
+			name="Pane1"
+			refimgid="4063e0a4-0e17-4fd6-bafc-320e3768200d"
+			refpath="/form[@title~'^Online\ flight\ booking,\ Ho']/container/container/container[1]"
+			searchtimeout="30000ms">
+				/form[@title~'^Train\ Ticket\ Booking,\ IRC']/container[@accessiblename~'^Online\ flight\ booking,\ Ho']/container/container[1]
+			</item>
+			<basepath>
+				/form[@title~'^Train\ Ticket\ Booking,\ IRC']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJKSURBVDhPrZPNT9NwHMb5B+AyQVDxJXKQk0cT
+ZWxdN9lwr0ynrpQxcEEPcjLx7AsalYtGvcHeMIAnSNSLxPg6UFYHRMW4thvGGAUv2kaisj72V9eR
+RfREk8/x+TzPN/m1omK9vy+MvUoMOC6KAfuc6HdIgq9FEn3WWd5r61ty7638b1/uiMueCxx4L/hb
+ILTth+CzQfDQ4N0UeKcZvItaEFwW25oSzmOlhUMORTxohyYgYa9VFVj+CFxEYgLvMCq8vYkukzTc
+O1nV1+v98EoNaIJie5bxFoRT/pzQY+KFSDMvRsxZMWIkpMrOaRg+fmHPDXblfus+ZD2qpOswhEeT
+uP1MwshTCbk3KSze8eDb3SYsT5jw62EzClP0+dKK7be653YMRXDstAcvHEaIjyfRcVOGq1+G84oM
+5rqMj7kp4KWtCA2FozKrgqFuaVuyG7sGwhhhnRhVW/Vw62UZhOEnEgqZNlVgBTgisEglQX0iLG1N
+doHA9Ic0AWnWw45LusCvhcFZyIJVwZZE5+zmeCcI9fGwkpp/t0RmEwEJH70m421u/rPeXhSsnlCX
+DJ3bFA+BUKeye6QX468z2mzC2CyHT9PMD70dHIUCR50pnWAY66qsjYYWamMdIGyMsRqNwyfQmOjB
+1XFvaboWTlvyyry7/FXWxFlrTYxVVECojrZjQ5TBzoEglqdtCplNwgpnVpQZyrLmazREGbp6kM0b
+BhnoTDxo/amHC2lz/p9h3UjOMcTazxoGgzPUaHDx+3P660ranCE3/zV7Pf7k39pysDvqtqFzAAAA
+AElFTkSuQmCC
 			</icon>
 		</appfolder>
 		<basepath>
