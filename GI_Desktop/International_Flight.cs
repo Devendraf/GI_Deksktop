@@ -311,12 +311,12 @@ namespace GI_Desktop
             Mouse.ScrollWheel(840);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.Submit' at 229;15.", repo.OnlineFlightBookingHotelsBusAmp.SubmitInfo, new RecordItemIndex(58));
-            repo.OnlineFlightBookingHotelsBusAmp.Submit.Click("229;15");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineHotelBookingBookCheapBudge.Submit' at 204;14.", repo.OnlineHotelBookingBookCheapBudge.SubmitInfo, new RecordItemIndex(58));
+            repo.OnlineHotelBookingBookCheapBudge.Submit.Click("204;14");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'StateBankOfIndiaInternetBanking.ClickHere' at 21;2.", repo.StateBankOfIndiaInternetBanking.ClickHereInfo, new RecordItemIndex(59));
-            repo.StateBankOfIndiaInternetBanking.ClickHere.Click("21;2");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'StateBankOfIndiaInternetBanking1.ClickHere' at 29;3.", repo.StateBankOfIndiaInternetBanking1.ClickHereInfo, new RecordItemIndex(59));
+            repo.StateBankOfIndiaInternetBanking1.ClickHere.Click("29;3");
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'OnlineFlightBookingHotelsBusAmp.HttpsGoibiboIbcdnComStyleguideIma1' at 47;15.", repo.OnlineFlightBookingHotelsBusAmp.HttpsGoibiboIbcdnComStyleguideIma1Info, new RecordItemIndex(60));

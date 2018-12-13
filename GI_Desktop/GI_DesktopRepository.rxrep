@@ -1319,6 +1319,16 @@ dL5DRMIRjnCEIxyxOsSa3hPhCEc4whFuujmd7xCRcIQjXFC4fzwlA6GWqpHgAAAAAElFTkSuQmCC
 				searchtimeout="30000ms">
 					/dom[@domain='www.goibibo.com']//div[#'fareSummary']/div[1]/div[2]/div[1]/div[2]/div[1]/div[@innertext='Goibibo offers']
 				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="6e893723-bf8d-4ec4-9eef-4b7b6771b148"
+				name="Gocash"
+				refimgid="89d7a43e-04ff-4886-a469-4aa5811135f0"
+				refpath="/dom[@domain='www.goibibo.com' and @caption~'^Online\ flight\ booking,\ Ho']//div[#'fareSummary']/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]/span[@innertext='gocash']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']//div[#'fareSummary']/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]/span[@innertext='gocash']
+				</item>
 				<basepath>
 					/dom[@domain='www.goibibo.com']//div[#'fareSummary']/div[1]/div[2]/div[1]/div[2]
 				</basepath>

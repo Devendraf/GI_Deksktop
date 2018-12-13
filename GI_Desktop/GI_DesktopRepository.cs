@@ -9639,6 +9639,7 @@ namespace GI_Desktop
             RepoItemInfo _controlindicatorvmiddle2Info;
             RepoItemInfo _removeInfo;
             RepoItemInfo _goibibooffersInfo;
+            RepoItemInfo _gocashInfo;
 
             /// <summary>
             /// Creates a new BkFareSumScroll  folder.
@@ -9651,6 +9652,7 @@ namespace GI_Desktop
                 _controlindicatorvmiddle2Info = new RepoItemInfo(this, "ControlIndicatorVMiddle2", "div[4]/span[1]/?/?/div", 30000, null, "ed1e9daa-7e31-48f5-bd25-dd803a4c3742");
                 _removeInfo = new RepoItemInfo(this, "Remove", "div[1]/div[2]/a[@innertext='Remove']", 30000, null, "43225d81-80c0-4abe-8038-49bba6ac724d");
                 _goibibooffersInfo = new RepoItemInfo(this, "GoibiboOffers", "div[1]/div[@innertext='Goibibo offers']", 30000, null, "73d03fcc-d3f3-4214-9a54-eae8b6f04e49");
+                _gocashInfo = new RepoItemInfo(this, "Gocash", "div[2]/span[2]/span[@innertext='gocash']", 30000, null, "6e893723-bf8d-4ec4-9eef-4b7b6771b148");
             }
 
             /// <summary>
@@ -9794,6 +9796,30 @@ namespace GI_Desktop
                 get
                 {
                     return _goibibooffersInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Gocash item.
+            /// </summary>
+            [RepositoryItem("6e893723-bf8d-4ec4-9eef-4b7b6771b148")]
+            public virtual Ranorex.SpanTag Gocash
+            {
+                get
+                {
+                    return _gocashInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Gocash item info.
+            /// </summary>
+            [RepositoryItemInfo("6e893723-bf8d-4ec4-9eef-4b7b6771b148")]
+            public virtual RepoItemInfo GocashInfo
+            {
+                get
+                {
+                    return _gocashInfo;
                 }
             }
         }
