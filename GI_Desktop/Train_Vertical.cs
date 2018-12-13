@@ -89,43 +89,43 @@ namespace GI_Desktop
             Mouse.ButtonUp(System.Windows.Forms.MouseButtons.Left);
             Delay.Milliseconds(3620);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.GosuggestInputL' at 215;26.", repo.OnlineFlightBookingHotelsBusAmp.GosuggestInputLInfo, new RecordItemIndex(2));
-            repo.OnlineFlightBookingHotelsBusAmp.GosuggestInputL.Click("215;26");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineHotelBookingBookCheapBudge.GosuggestInputL' at 213;27.", repo.OnlineHotelBookingBookCheapBudge.GosuggestInputLInfo, new RecordItemIndex(2));
+            repo.OnlineHotelBookingBookCheapBudge.GosuggestInputL.Click("213;27");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'OnlineFlightBookingHotelsBusAmp.GosuggestInputL'.", repo.OnlineFlightBookingHotelsBusAmp.GosuggestInputLInfo, new RecordItemIndex(3));
-            Keyboard.PrepareFocus(repo.OnlineFlightBookingHotelsBusAmp.GosuggestInputL);
-            Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, 30, Keyboard.DefaultKeyPressTime, 1, true);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'OnlineFlightBookingHotelsBusAmp.GosuggestInputL'.", repo.OnlineFlightBookingHotelsBusAmp.GosuggestInputLInfo, new RecordItemIndex(4));
-            repo.OnlineFlightBookingHotelsBusAmp.GosuggestInputL.PressKeys("{Back}");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'delhi' with focus on 'OnlineFlightBookingHotelsBusAmp.GosuggestInputL'.", repo.OnlineFlightBookingHotelsBusAmp.GosuggestInputLInfo, new RecordItemIndex(5));
-            repo.OnlineFlightBookingHotelsBusAmp.GosuggestInputL.PressKeys("delhi");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.MainTxt' at 190;9.", repo.OnlineFlightBookingHotelsBusAmp.MainTxtInfo, new RecordItemIndex(6));
-            repo.OnlineFlightBookingHotelsBusAmp.MainTxt.Click("190;9");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineHotelBookingBookCheapBudge.GosuggestInputL' at 144;9.", repo.OnlineHotelBookingBookCheapBudge.GosuggestInputLInfo, new RecordItemIndex(7));
-            repo.OnlineHotelBookingBookCheapBudge.GosuggestInputL.Click("144;9");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'OnlineHotelBookingBookCheapBudge.GosuggestInputL'.", repo.OnlineHotelBookingBookCheapBudge.GosuggestInputLInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'OnlineHotelBookingBookCheapBudge.GosuggestInputL'.", repo.OnlineHotelBookingBookCheapBudge.GosuggestInputLInfo, new RecordItemIndex(3));
             Keyboard.PrepareFocus(repo.OnlineHotelBookingBookCheapBudge.GosuggestInputL);
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, 30, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}ka' with focus on 'OnlineHotelBookingBookCheapBudge.GosuggestInputL'.", repo.OnlineHotelBookingBookCheapBudge.GosuggestInputLInfo, new RecordItemIndex(9));
-            repo.OnlineHotelBookingBookCheapBudge.GosuggestInputL.PressKeys("{Back}ka");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'delhi' with focus on 'OnlineHotelBookingBookCheapBudge.GosuggestInputL'.", repo.OnlineHotelBookingBookCheapBudge.GosuggestInputLInfo, new RecordItemIndex(4));
+            repo.OnlineHotelBookingBookCheapBudge.GosuggestInputL.PressKeys("delhi");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'lya' with focus on 'OnlineHotelBookingBookCheapBudge.GosuggestInputL'.", repo.OnlineHotelBookingBookCheapBudge.GosuggestInputLInfo, new RecordItemIndex(10));
-            repo.OnlineHotelBookingBookCheapBudge.GosuggestInputL.PressKeys("lya");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineHotelBookingBookCheapBudge.MainTxt' at 200;16.", repo.OnlineHotelBookingBookCheapBudge.MainTxtInfo, new RecordItemIndex(5));
+            repo.OnlineHotelBookingBookCheapBudge.MainTxt.Click("200;16");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineHotelBookingBookCheapBudge.GosuggestInputL' at 165;16.", repo.OnlineHotelBookingBookCheapBudge.GosuggestInputLInfo, new RecordItemIndex(6));
+            repo.OnlineHotelBookingBookCheapBudge.GosuggestInputL.Click("165;16");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'OnlineHotelBookingBookCheapBudge.GosuggestInputL'.", repo.OnlineHotelBookingBookCheapBudge.GosuggestInputLInfo, new RecordItemIndex(7));
+            Keyboard.PrepareFocus(repo.OnlineHotelBookingBookCheapBudge.GosuggestInputL);
+            Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, 30, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'kal' with focus on 'OnlineHotelBookingBookCheapBudge.GosuggestInputL'.", repo.OnlineHotelBookingBookCheapBudge.GosuggestInputLInfo, new RecordItemIndex(8));
+            repo.OnlineHotelBookingBookCheapBudge.GosuggestInputL.PressKeys("kal");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'ya' with focus on 'OnlineHotelBookingBookCheapBudge.GosuggestInputL'.", repo.OnlineHotelBookingBookCheapBudge.GosuggestInputLInfo, new RecordItemIndex(9));
+            repo.OnlineHotelBookingBookCheapBudge.GosuggestInputL.PressKeys("ya");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineHotelBookingBookCheapBudge.MainTxt' at 133;10.", repo.OnlineHotelBookingBookCheapBudge.MainTxtInfo, new RecordItemIndex(10));
+            repo.OnlineHotelBookingBookCheapBudge.MainTxt.Click("133;10");
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.MainTxt' at 137;12.", repo.OnlineFlightBookingHotelsBusAmp.MainTxtInfo, new RecordItemIndex(11));
             repo.OnlineFlightBookingHotelsBusAmp.MainTxt.Click("137;12");
@@ -249,8 +249,8 @@ namespace GI_Desktop
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, 30, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}999999999' with focus on 'OnlineFlightBookingHotelsBusAmp.HttpsWwwGoibiboComTrainsBooking.Text3'.", repo.OnlineFlightBookingHotelsBusAmp.HttpsWwwGoibiboComTrainsBooking.Text3Info, new RecordItemIndex(41));
-            repo.OnlineFlightBookingHotelsBusAmp.HttpsWwwGoibiboComTrainsBooking.Text3.PressKeys("{Back}999999999");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}9999999999' with focus on 'OnlineFlightBookingHotelsBusAmp.HttpsWwwGoibiboComTrainsBooking.Text3'.", repo.OnlineFlightBookingHotelsBusAmp.HttpsWwwGoibiboComTrainsBooking.Text3Info, new RecordItemIndex(41));
+            repo.OnlineFlightBookingHotelsBusAmp.HttpsWwwGoibiboComTrainsBooking.Text3.PressKeys("{Back}9999999999");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -240 units.", new RecordItemIndex(42));
