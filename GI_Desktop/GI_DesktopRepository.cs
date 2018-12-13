@@ -587,6 +587,7 @@ namespace GI_Desktop
             RepoItemInfo _trainrunsttraindetailsInfo;
             RepoItemInfo _somelitagInfo;
             RepoItemInfo _trainrunningstatusInfo;
+            RepoItemInfo _mumbaidadarcentralrailwaystationInfo;
 
             /// <summary>
             /// Creates a new OnlineFlightBookingHotelsBusAmp  folder.
@@ -843,6 +844,7 @@ namespace GI_Desktop
                 _trainrunsttraindetailsInfo = new RepoItemInfo(this, "TrainRunStTrainDetails", ".//input[#'train_run_st_train_details']", 30000, null, "48c7e658-d7db-46ea-bedb-94f8597eb130");
                 _somelitagInfo = new RepoItemInfo(this, "SomeLiTag", ".//ul[#'train_run_st_train_details_suggestionWrapper']/li", 30000, null, "072574bf-aea3-4add-9131-83644b59bf7a");
                 _trainrunningstatusInfo = new RepoItemInfo(this, "TrainRunningStatus", ".//span[#'trainRunningStatus']", 30000, null, "6247a362-dc46-44dd-9be8-41ea72d4a064");
+                _mumbaidadarcentralrailwaystationInfo = new RepoItemInfo(this, "MumbaiDadarCentralRailwayStation", ".//li[#'react-autosuggest-1-suggestion--0']/div/div[1]/?/?/span[@innertext~'^Mumbai\\ Dadar\\ Central\\ Rail']", 30000, null, "470b9b68-1ade-4976-8eac-00b753653e24");
             }
 
             /// <summary>
@@ -7171,6 +7173,30 @@ namespace GI_Desktop
                 get
                 {
                     return _trainrunningstatusInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MumbaiDadarCentralRailwayStation item.
+            /// </summary>
+            [RepositoryItem("470b9b68-1ade-4976-8eac-00b753653e24")]
+            public virtual Ranorex.SpanTag MumbaiDadarCentralRailwayStation
+            {
+                get
+                {
+                    return _mumbaidadarcentralrailwaystationInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MumbaiDadarCentralRailwayStation item info.
+            /// </summary>
+            [RepositoryItemInfo("470b9b68-1ade-4976-8eac-00b753653e24")]
+            public virtual RepoItemInfo MumbaiDadarCentralRailwayStationInfo
+            {
+                get
+                {
+                    return _mumbaidadarcentralrailwaystationInfo;
                 }
             }
 
@@ -16305,6 +16331,11 @@ namespace GI_Desktop
             RepoItemInfo _submitInfo;
             RepoItemInfo _fare20190130Info;
             RepoItemInfo _spantag21Info;
+            RepoItemInfo _dbgreydriconmoonico18padb5Info;
+            RepoItemInfo _smalltag11am5pmInfo;
+            RepoItemInfo _smalltag5pm9pmInfo;
+            RepoItemInfo _stopsInfo;
+            RepoItemInfo _airlinesInfo;
 
             /// <summary>
             /// Creates a new OnlineHotelBookingBookCheapBudge  folder.
@@ -16336,6 +16367,11 @@ namespace GI_Desktop
                 _submitInfo = new RepoItemInfo(this, "Submit", ".//div[#'netBank']/div[3]/div[4]/?/?/input[@type='submit']", 30000, null, "5f7a0b7b-4315-43d8-a4ec-9602d513d05b");
                 _fare20190130Info = new RepoItemInfo(this, "Fare20190130", ".//div[#'fare_20190130']", 30000, null, "68935aaa-59fb-4a02-9437-5bb6312b0372");
                 _spantag21Info = new RepoItemInfo(this, "SpanTag21", ".//td[#'jrdp_start-calen_1_21_2019']/?/?/span[@innertext='21']", 30000, null, "2814eb72-98eb-4981-80cc-c3b6335f7704");
+                _dbgreydriconmoonico18padb5Info = new RepoItemInfo(this, "DbGreyDrIconMoonIco18PadB5", ".//span[#'onw_5-9']/i", 30000, null, "2b643d33-5172-4c5f-b3e8-9c6dbc204a79");
+                _smalltag11am5pmInfo = new RepoItemInfo(this, "SmallTag11AM5PM", ".//span[#'onw_11-5']/small[@innertext='11AM - 5PM']", 30000, null, "be09ac8e-4485-47dc-a714-f1f7cee91788");
+                _smalltag5pm9pmInfo = new RepoItemInfo(this, "SmallTag5PM9PM", ".//span[#'onw_5-9']/small[@innertext='5PM - 9PM']", 30000, null, "5d730aa3-e654-4ecd-a545-57f36f4b98c6");
+                _stopsInfo = new RepoItemInfo(this, "Stops", ".//a[#'stopsFilter']/?/?/span[@innertext='Stops']", 30000, null, "429ac0bb-f764-4d0d-978d-201823a911fe");
+                _airlinesInfo = new RepoItemInfo(this, "Airlines", ".//a[#'airlinesFilter']/?/?/span[@innertext='Airlines']", 30000, null, "a5d63bd3-4fa7-457d-9f93-324d599ce326");
             }
 
             /// <summary>
@@ -16887,6 +16923,126 @@ namespace GI_Desktop
                 get
                 {
                     return _spantag21Info;
+                }
+            }
+
+            /// <summary>
+            /// The DbGreyDrIconMoonIco18PadB5 item.
+            /// </summary>
+            [RepositoryItem("2b643d33-5172-4c5f-b3e8-9c6dbc204a79")]
+            public virtual Ranorex.ITag DbGreyDrIconMoonIco18PadB5
+            {
+                get
+                {
+                    return _dbgreydriconmoonico18padb5Info.CreateAdapter<Ranorex.ITag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DbGreyDrIconMoonIco18PadB5 item info.
+            /// </summary>
+            [RepositoryItemInfo("2b643d33-5172-4c5f-b3e8-9c6dbc204a79")]
+            public virtual RepoItemInfo DbGreyDrIconMoonIco18PadB5Info
+            {
+                get
+                {
+                    return _dbgreydriconmoonico18padb5Info;
+                }
+            }
+
+            /// <summary>
+            /// The SmallTag11AM5PM item.
+            /// </summary>
+            [RepositoryItem("be09ac8e-4485-47dc-a714-f1f7cee91788")]
+            public virtual Ranorex.SmallTag SmallTag11AM5PM
+            {
+                get
+                {
+                    return _smalltag11am5pmInfo.CreateAdapter<Ranorex.SmallTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SmallTag11AM5PM item info.
+            /// </summary>
+            [RepositoryItemInfo("be09ac8e-4485-47dc-a714-f1f7cee91788")]
+            public virtual RepoItemInfo SmallTag11AM5PMInfo
+            {
+                get
+                {
+                    return _smalltag11am5pmInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SmallTag5PM9PM item.
+            /// </summary>
+            [RepositoryItem("5d730aa3-e654-4ecd-a545-57f36f4b98c6")]
+            public virtual Ranorex.SmallTag SmallTag5PM9PM
+            {
+                get
+                {
+                    return _smalltag5pm9pmInfo.CreateAdapter<Ranorex.SmallTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SmallTag5PM9PM item info.
+            /// </summary>
+            [RepositoryItemInfo("5d730aa3-e654-4ecd-a545-57f36f4b98c6")]
+            public virtual RepoItemInfo SmallTag5PM9PMInfo
+            {
+                get
+                {
+                    return _smalltag5pm9pmInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Stops item.
+            /// </summary>
+            [RepositoryItem("429ac0bb-f764-4d0d-978d-201823a911fe")]
+            public virtual Ranorex.SpanTag Stops
+            {
+                get
+                {
+                    return _stopsInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Stops item info.
+            /// </summary>
+            [RepositoryItemInfo("429ac0bb-f764-4d0d-978d-201823a911fe")]
+            public virtual RepoItemInfo StopsInfo
+            {
+                get
+                {
+                    return _stopsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Airlines item.
+            /// </summary>
+            [RepositoryItem("a5d63bd3-4fa7-457d-9f93-324d599ce326")]
+            public virtual Ranorex.SpanTag Airlines
+            {
+                get
+                {
+                    return _airlinesInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Airlines item info.
+            /// </summary>
+            [RepositoryItemInfo("a5d63bd3-4fa7-457d-9f93-324d599ce326")]
+            public virtual RepoItemInfo AirlinesInfo
+            {
+                get
+                {
+                    return _airlinesInfo;
                 }
             }
 

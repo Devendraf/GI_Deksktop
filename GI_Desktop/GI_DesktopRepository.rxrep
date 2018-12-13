@@ -5990,6 +5990,16 @@ gIHuGECgI9DxlMEADMAADMAADMAADMAADMAADETAwP8PurBoTTK4qCgAAAAASUVORK5CYII=
 			searchtimeout="30000ms">
 				/dom[@domain='www.goibibo.com']//span[#'trainRunningStatus']
 			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="470b9b68-1ade-4976-8eac-00b753653e24"
+			name="MumbaiDadarCentralRailwayStation"
+			refimgid="c6e0724d-5ea7-4334-b556-cba839f96008"
+			refpath="/dom[@domain='www.goibibo.com']//li[#'react-autosuggest-1-suggestion--0']/div/div[1]/div/span[@innertext~'^Mumbai\ Dadar\ Central\ Rail']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//li[#'react-autosuggest-1-suggestion--0']/div/div[1]/?/?/span[@innertext~'^Mumbai\ Dadar\ Central\ Rail']
+			</item>
 			<basepath>
 				/dom[@domain='www.goibibo.com']
 			</basepath>
@@ -7429,6 +7439,56 @@ AElFTkSuQmCC
 			refpath="/dom[@domain='www.goibibo.com']//td[#'jrdp_start-calen_1_21_2019']/div/span[@innertext='21']"
 			searchtimeout="30000ms">
 				/dom[@domain='www.goibibo.com']//td[#'jrdp_start-calen_1_21_2019']/?/?/span[@innertext='21']
+			</item>
+			<item
+			addcaps="unknown,webelement,itag"
+			capname="itag"
+			id="2b643d33-5172-4c5f-b3e8-9c6dbc204a79"
+			name="DbGreyDrIconMoonIco18PadB5"
+			refimgid="cd709989-c049-4ba5-b22d-78b1150abf7f"
+			refpath="/dom[@domain='www.goibibo.com']//span[#'onw_5-9']/i"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//span[#'onw_5-9']/i
+			</item>
+			<item
+			addcaps="unknown,webelement,smalltag"
+			capname="smalltag"
+			id="be09ac8e-4485-47dc-a714-f1f7cee91788"
+			name="SmallTag11AM5PM"
+			refimgid="43c4ccab-9d0c-42f5-887c-8364e8c1dd39"
+			refpath="/dom[@domain='www.goibibo.com']//span[#'onw_11-5']/small[@innertext='11AM - 5PM']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//span[#'onw_11-5']/small[@innertext='11AM - 5PM']
+			</item>
+			<item
+			addcaps="unknown,webelement,smalltag"
+			capname="smalltag"
+			id="5d730aa3-e654-4ecd-a545-57f36f4b98c6"
+			name="SmallTag5PM9PM"
+			refimgid="c0e8b7bc-5606-4713-b3bf-b6fdb5ff7428"
+			refpath="/dom[@domain='www.goibibo.com']//span[#'onw_5-9']/small[@innertext='5PM - 9PM']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//span[#'onw_5-9']/small[@innertext='5PM - 9PM']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="429ac0bb-f764-4d0d-978d-201823a911fe"
+			name="Stops"
+			refimgid="f0f80ac0-81e9-4c8e-b94f-2007d031c8f3"
+			refpath="/dom[@domain='www.goibibo.com']//a[#'stopsFilter']/span/span[@innertext='Stops']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//a[#'stopsFilter']/?/?/span[@innertext='Stops']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="a5d63bd3-4fa7-457d-9f93-324d599ce326"
+			name="Airlines"
+			refimgid="be91ea10-8ecf-48f1-8b83-72d167235b9d"
+			refpath="/dom[@domain='www.goibibo.com']//a[#'airlinesFilter']/span/span[@innertext='Airlines']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//a[#'airlinesFilter']/?/?/span[@innertext='Airlines']
 			</item>
 			<basepath>
 				/dom[@domain='www.goibibo.com']
