@@ -4830,6 +4830,26 @@ z9DKr5N/H/4FXTLOwyi/EtoAAAAASUVORK5CYII=
 				searchtimeout="30000ms">
 					/dom[@domain='www.goibibo.com']/body/div[6]/div/div[2]//ul/li[5]/div/div[4]/div
 				</item>
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="11802780-901a-4424-8762-86ca56f9ac4d"
+				name="FtBookbtn"
+				refimgid="48fbfb37-1fb4-4cb4-9915-4e3be9f36293"
+				refpath="/dom[@domain='www.goibibo.com']//ul[#'fl']/li[5]/div[2]/div[5]/div[1]/span[2]/button[@id='ft_bookbtn']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']/body/div[6]/div/div[2]//ul/li[5]/div[2]/div[5]//button[@id='ft_bookbtn']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="1d435f37-bcbc-4be2-9662-e37afa2f48a7"
+				name="FrBsConfirm"
+				refimgid="912fc57e-2040-4605-8de2-f140dd8f5133"
+				refpath="/dom[@domain='www.goibibo.com']//ul[#'fl']/li[5]/div[4]/div/div[@id='seatdata']/div/div[3]/div[5]/div[2]/div"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']/body/div[6]/div/div[2]//ul/li[5]//div[@id='seatdata']/div/div[3]/div[5]/div[2]/div
+				</item>
 				<basepath>
 					/dom[@domain='www.goibibo.com']/body/div[6]/div/div[2]//ul
 				</basepath>
@@ -5859,6 +5879,36 @@ gIHuGECgI9DxlMEADMAADMAADMAADMAADMAADETAwP8PurBoTTK4qCgAAAAASUVORK5CYII=
 			refpath="/dom[@domain='www.goibibo.com']//li[#'react-autosuggest-1-suggestion--0']/div/span/p/span[@innertext~'^Delhi\ Cantonment,\ New\ Del']"
 			searchtimeout="30000ms">
 				/dom[@domain='www.goibibo.com']//li[#'react-autosuggest-1-suggestion--0']/div//span[@innertext~'^Delhi\ Cantonment,\ New\ Del']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="09c72cf0-bc03-465d-8aef-0b06a8493f69"
+			name="OnwRedbusnewAt200001192973007432540"
+			refimgid="5162c809-287f-47f3-8f84-da371f36465a"
+			refpath="/dom[@domain='www.goibibo.com']//a[#'onw~redbusnew@2000011929730074325~40']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//a[#'onw~redbusnew@2000011929730074325~40']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="84fef922-4419-4211-bbd0-d4e3462d5cfd"
+			name="BpOnwRedbusnewAt2000011929730074325"
+			refimgid="9cbd40de-6c96-4444-90ff-8544ffb03e18"
+			refpath="/dom[@domain='www.goibibo.com']//select[#'bp-onw-redbusnew@2000011929730074325']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//select[#'bp-onw-redbusnew@2000011929730074325']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="8fdbd7d2-04fa-415a-a17f-29e73ff08613"
+			name="DpOnwRedbusnewAt2000011929730074325"
+			refimgid="ea012a3e-cd85-448f-9183-d86aaa692233"
+			refpath="/dom[@domain='www.goibibo.com']//select[#'dp-onw-redbusnew@2000011929730074325']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//select[#'dp-onw-redbusnew@2000011929730074325']
 			</item>
 			<basepath>
 				/dom[@domain='www.goibibo.com']
@@ -7229,6 +7279,16 @@ AElFTkSuQmCC
 			refpath="/dom[@domain='www.goibibo.com']//div[#'fare_20190130']"
 			searchtimeout="30000ms">
 				/dom[@domain='www.goibibo.com']//div[#'fare_20190130']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="2814eb72-98eb-4981-80cc-c3b6335f7704"
+			name="SpanTag21"
+			refimgid="32d78efd-14fd-4337-862c-30aa1d5d6930"
+			refpath="/dom[@domain='www.goibibo.com']//td[#'jrdp_start-calen_1_21_2019']/div/span[@innertext='21']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//td[#'jrdp_start-calen_1_21_2019']/?/?/span[@innertext='21']
 			</item>
 			<basepath>
 				/dom[@domain='www.goibibo.com']
