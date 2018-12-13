@@ -40,6 +40,7 @@ rxversion="8.3">
 			name="Website_URl">
 			</testcase>
 			<testmodule
+			enabled="False"
 			id="67d01a87-8306-45fb-9f77-79d9af61ee43"
 			name="WebSiteURl"
 			ref="57e75c3b-9e82-4904-8ec5-d432540338f4"
