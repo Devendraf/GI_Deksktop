@@ -5940,6 +5940,56 @@ gIHuGECgI9DxlMEADMAADMAADMAADMAADMAADETAwP8PurBoTTK4qCgAAAAASUVORK5CYII=
 			searchtimeout="30000ms">
 				/dom[@domain='www.goibibo.com']//select[#'dp-onw-redbusnew@2000011929730001530']
 			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="cdde6ea2-74c2-44c3-83f5-ccd7fd1bd71b"
+			name="HttpsWwwGoibiboComOffersGocarOff"
+			refimgid="1f389e32-12cb-4b4c-b6ca-9dfe238b8a45"
+			refpath="/dom[@domain='www.goibibo.com' and @caption~'^Goibibo\ Bus\ Booking\ Offer']//li[#'gocar-offers']/a[@href~'^https://www\.goibibo\.com/o']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//li[#'gocar-offers']/a[@href~'^https://www\.goibibo\.com/o']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="1fc76d12-7d76-4f16-83b9-b07eacd247af"
+			name="HttpsWwwGoibiboComOffersTrainOff"
+			refimgid="1f00e8f4-bdb2-4d1f-a826-6a6fdb9d39fe"
+			refpath="/dom[@domain='www.goibibo.com' and @caption~'^Goibibo\ GoCar\ Offers\ in\ D']//li[#'train-offers']/a[@href~'^https://www\.goibibo\.com/o']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//li[#'train-offers']/a[@href~'^https://www\.goibibo\.com/o']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="48c7e658-d7db-46ea-bedb-94f8597eb130"
+			name="TrainRunStTrainDetails"
+			refimgid="14180808-6021-4b92-a10a-f88e3ab0b9b9"
+			refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Running\ Status,\ Spo']//input[#'train_run_st_train_details']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//input[#'train_run_st_train_details']
+			</item>
+			<item
+			addcaps="unknown,webelement,litag"
+			capname="litag"
+			id="072574bf-aea3-4add-9131-83644b59bf7a"
+			name="SomeLiTag"
+			refimgid="924647d2-0ac9-4ad7-b70e-9cae528a5307"
+			refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Running\ Status,\ Spo']//ul[#'train_run_st_train_details_suggestionWrapper']/li"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//ul[#'train_run_st_train_details_suggestionWrapper']/li
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="6247a362-dc46-44dd-9be8-41ea72d4a064"
+			name="TrainRunningStatus"
+			refimgid="f1f41e4f-b476-4061-8484-ea363df77140"
+			refpath="/dom[@domain='www.goibibo.com' and @caption~'^Train\ Running\ Status,\ Spo']//span[#'trainRunningStatus']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//span[#'trainRunningStatus']
+			</item>
 			<basepath>
 				/dom[@domain='www.goibibo.com']
 			</basepath>
@@ -6762,6 +6812,36 @@ AElFTkSuQmCC
 			searchtimeout="30000ms">
 				/form[@title~'^Online\ flight\ booking,\ Ho']/container[@accessiblename~'^Online\ flight\ booking,\ Ho']/container[@accessiblename='Google Chrome']//button[@accessiblename='Reload']
 			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="bd623eec-636e-4c91-9cd0-e27a75d18a6a"
+			name="Close2"
+			refimgid="c923f779-8b3b-4952-b657-c3cdd68e9ecd"
+			refpath="/form[@title~'^Online\ flight\ booking,\ Ho']/container/container/container[2]/container[1]/tabpagelist/tabpage[@accessiblename~'^Online\ flight\ booking,\ Ho' and @accessiblerole='PageTab' and @title~'^Online\ flight\ booking,\ Ho' and @index='4']/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@title~'^Online\ flight\ booking,\ Ho']/container[@accessiblename~'^Online\ flight\ booking,\ Ho']/container[@accessiblename='Google Chrome']//tabpage[@accessiblerole='PageTab' and @title~'^Online\ flight\ booking,\ Ho' and @index='4']/button[@accessiblename='Close']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="09eec1d9-71f7-4bf9-af32-99ae46f3dd13"
+			name="Close4"
+			refimgid="f0f0fe4e-7cd3-48ee-abfe-fd3c68be5dd9"
+			refpath="/form[@title~'^Online\ flight\ booking,\ Ho']/container/container/container[2]/container[1]/tabpagelist/tabpage[@accessiblename~'^Online\ flight\ booking,\ Ho']/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@title~'^Online\ flight\ booking,\ Ho']/container[@accessiblename~'^Online\ flight\ booking,\ Ho']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename~'^Online\ flight\ booking,\ Ho']/button[@accessiblename='Close']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="d4dabd18-7f45-452c-9038-84f8943c54be"
+			name="Close16"
+			refimgid="49fc6104-c57e-4919-8ce3-844d0607213a"
+			refpath="/form[@title~'^Train\ Ticket\ Booking,\ IRC']/container/container/container[2]/container[1]/tabpagelist/tabpage[@accessiblename~'^Train\ Ticket\ Booking,\ IRC']/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@title~'^Online\ flight\ booking,\ Ho']/container[@accessiblename~'^Train\ Ticket\ Booking,\ IRC']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename~'^Train\ Ticket\ Booking,\ IRC']/button[@accessiblename='Close']
+			</item>
 			<basepath>
 				/form[@title~'^Online\ flight\ booking,\ Ho']
 			</basepath>
@@ -6915,6 +6995,36 @@ AElFTkSuQmCC
 			refpath="/form[@title='Goibibo - Google Chrome']/container/container/container[2]/container[1]/container/button[@accessiblename='Back']"
 			searchtimeout="30000ms">
 				/form[@title='Goibibo - Google Chrome']/container[@accessiblename='Goibibo - Google Chrome']/container[@accessiblename='Google Chrome']//button[@accessiblename='Back']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="319d8f5c-3b44-42ce-9ca1-f98525336c11"
+			name="Close2"
+			refimgid="414ee9c3-57b3-4b2f-937f-b5be523a7c4f"
+			refpath="/form[@title~'^Goibibo\ Train\ Ticket\ Book']/container/container/container[2]/container[1]/tabpagelist/tabpage[@accessiblename~'^Goibibo\ Train\ Ticket\ Book']/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@title='Goibibo - Google Chrome']/container[@accessiblename~'^Goibibo\ Train\ Ticket\ Book']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename~'^Goibibo\ Train\ Ticket\ Book']/button[@accessiblename='Close']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="c0d99df0-85d1-42fc-a1d6-921568c59ad6"
+			name="Close3"
+			refimgid="22875d35-888f-429a-8fc8-152a8ccb56c4"
+			refpath="/form[@title~'^Goibibo\ Mobile\ –\ Download']/container/container/container[2]/container[1]/tabpagelist/tabpage[@accessiblename~'^Goibibo\ Mobile\ –\ Download']/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@title='Goibibo - Google Chrome']/container[@accessiblename~'^Goibibo\ Mobile\ &#8211;\ Download']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename~'^Goibibo\ Mobile\ &#8211;\ Download']/button[@accessiblename='Close']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="9bf94292-2bf3-4be2-ad60-19c016e3b2d7"
+			name="Close4"
+			refimgid="08354fb7-c249-40e6-a37c-add3332c1040"
+			refpath="/form[@title~'^Train\ Live\ Running\ Status']/container/container/container[2]/container[1]/tabpagelist/tabpage[@accessiblename~'^Train\ Live\ Running\ Status']/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@title='Goibibo - Google Chrome']/container[@accessiblename~'^Train\ Live\ Running\ Status']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename~'^Train\ Live\ Running\ Status']/button[@accessiblename='Close']
 			</item>
 			<basepath>
 				/form[@title='Goibibo - Google Chrome']

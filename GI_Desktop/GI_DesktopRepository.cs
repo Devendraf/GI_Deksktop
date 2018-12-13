@@ -582,6 +582,11 @@ namespace GI_Desktop
             RepoItemInfo _onwredbusnewat200001192973000153036Info;
             RepoItemInfo _bponwredbusnewat2000011929730001530Info;
             RepoItemInfo _dponwredbusnewat2000011929730001530Info;
+            RepoItemInfo _httpswwwgoibibocomoffersgocaroffInfo;
+            RepoItemInfo _httpswwwgoibibocomofferstrainoffInfo;
+            RepoItemInfo _trainrunsttraindetailsInfo;
+            RepoItemInfo _somelitagInfo;
+            RepoItemInfo _trainrunningstatusInfo;
 
             /// <summary>
             /// Creates a new OnlineFlightBookingHotelsBusAmp  folder.
@@ -833,6 +838,11 @@ namespace GI_Desktop
                 _onwredbusnewat200001192973000153036Info = new RepoItemInfo(this, "OnwRedbusnewAt200001192973000153036", ".//a[#'onw~redbusnew@2000011929730001530~36']", 30000, null, "81d34458-0356-4d91-aece-ad6b8aaa5fb1");
                 _bponwredbusnewat2000011929730001530Info = new RepoItemInfo(this, "BpOnwRedbusnewAt2000011929730001530", ".//select[#'bp-onw-redbusnew@2000011929730001530']", 30000, null, "48fe6c5f-3cb9-47ef-8118-3ce0dd415bb4");
                 _dponwredbusnewat2000011929730001530Info = new RepoItemInfo(this, "DpOnwRedbusnewAt2000011929730001530", ".//select[#'dp-onw-redbusnew@2000011929730001530']", 30000, null, "1b6c6d51-b8b1-4fcf-9e63-e09a3646a689");
+                _httpswwwgoibibocomoffersgocaroffInfo = new RepoItemInfo(this, "HttpsWwwGoibiboComOffersGocarOff", ".//li[#'gocar-offers']/a[@href~'^https://www\\.goibibo\\.com/o']", 30000, null, "cdde6ea2-74c2-44c3-83f5-ccd7fd1bd71b");
+                _httpswwwgoibibocomofferstrainoffInfo = new RepoItemInfo(this, "HttpsWwwGoibiboComOffersTrainOff", ".//li[#'train-offers']/a[@href~'^https://www\\.goibibo\\.com/o']", 30000, null, "1fc76d12-7d76-4f16-83b9-b07eacd247af");
+                _trainrunsttraindetailsInfo = new RepoItemInfo(this, "TrainRunStTrainDetails", ".//input[#'train_run_st_train_details']", 30000, null, "48c7e658-d7db-46ea-bedb-94f8597eb130");
+                _somelitagInfo = new RepoItemInfo(this, "SomeLiTag", ".//ul[#'train_run_st_train_details_suggestionWrapper']/li", 30000, null, "072574bf-aea3-4add-9131-83644b59bf7a");
+                _trainrunningstatusInfo = new RepoItemInfo(this, "TrainRunningStatus", ".//span[#'trainRunningStatus']", 30000, null, "6247a362-dc46-44dd-9be8-41ea72d4a064");
             }
 
             /// <summary>
@@ -7041,6 +7051,126 @@ namespace GI_Desktop
                 get
                 {
                     return _dponwredbusnewat2000011929730001530Info;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwGoibiboComOffersGocarOff item.
+            /// </summary>
+            [RepositoryItem("cdde6ea2-74c2-44c3-83f5-ccd7fd1bd71b")]
+            public virtual Ranorex.ATag HttpsWwwGoibiboComOffersGocarOff
+            {
+                get
+                {
+                    return _httpswwwgoibibocomoffersgocaroffInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwGoibiboComOffersGocarOff item info.
+            /// </summary>
+            [RepositoryItemInfo("cdde6ea2-74c2-44c3-83f5-ccd7fd1bd71b")]
+            public virtual RepoItemInfo HttpsWwwGoibiboComOffersGocarOffInfo
+            {
+                get
+                {
+                    return _httpswwwgoibibocomoffersgocaroffInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwGoibiboComOffersTrainOff item.
+            /// </summary>
+            [RepositoryItem("1fc76d12-7d76-4f16-83b9-b07eacd247af")]
+            public virtual Ranorex.ATag HttpsWwwGoibiboComOffersTrainOff
+            {
+                get
+                {
+                    return _httpswwwgoibibocomofferstrainoffInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwGoibiboComOffersTrainOff item info.
+            /// </summary>
+            [RepositoryItemInfo("1fc76d12-7d76-4f16-83b9-b07eacd247af")]
+            public virtual RepoItemInfo HttpsWwwGoibiboComOffersTrainOffInfo
+            {
+                get
+                {
+                    return _httpswwwgoibibocomofferstrainoffInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TrainRunStTrainDetails item.
+            /// </summary>
+            [RepositoryItem("48c7e658-d7db-46ea-bedb-94f8597eb130")]
+            public virtual Ranorex.InputTag TrainRunStTrainDetails
+            {
+                get
+                {
+                    return _trainrunsttraindetailsInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TrainRunStTrainDetails item info.
+            /// </summary>
+            [RepositoryItemInfo("48c7e658-d7db-46ea-bedb-94f8597eb130")]
+            public virtual RepoItemInfo TrainRunStTrainDetailsInfo
+            {
+                get
+                {
+                    return _trainrunsttraindetailsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SomeLiTag item.
+            /// </summary>
+            [RepositoryItem("072574bf-aea3-4add-9131-83644b59bf7a")]
+            public virtual Ranorex.LiTag SomeLiTag
+            {
+                get
+                {
+                    return _somelitagInfo.CreateAdapter<Ranorex.LiTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SomeLiTag item info.
+            /// </summary>
+            [RepositoryItemInfo("072574bf-aea3-4add-9131-83644b59bf7a")]
+            public virtual RepoItemInfo SomeLiTagInfo
+            {
+                get
+                {
+                    return _somelitagInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TrainRunningStatus item.
+            /// </summary>
+            [RepositoryItem("6247a362-dc46-44dd-9be8-41ea72d4a064")]
+            public virtual Ranorex.SpanTag TrainRunningStatus
+            {
+                get
+                {
+                    return _trainrunningstatusInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TrainRunningStatus item info.
+            /// </summary>
+            [RepositoryItemInfo("6247a362-dc46-44dd-9be8-41ea72d4a064")]
+            public virtual RepoItemInfo TrainRunningStatusInfo
+            {
+                get
+                {
+                    return _trainrunningstatusInfo;
                 }
             }
 
@@ -14896,6 +15026,9 @@ namespace GI_Desktop
             RepoItemInfo _close1Info;
             RepoItemInfo _paneInfo;
             RepoItemInfo _reloadInfo;
+            RepoItemInfo _close2Info;
+            RepoItemInfo _close4Info;
+            RepoItemInfo _close16Info;
 
             /// <summary>
             /// Creates a new OnlineFlightBookingHotelsBusAmp1  folder.
@@ -14925,6 +15058,9 @@ namespace GI_Desktop
                 _close1Info = new RepoItemInfo(this, "Close1", "container[@accessiblename~'^Online\\ flight\\ booking,\\ Ho']//container[@accessiblename='Infobar Container']/?/?/button[@accessiblename='Close']", 30000, null, "14181d0f-6bdd-4dc8-81f6-0a791d19b8fe");
                 _paneInfo = new RepoItemInfo(this, "Pane", "container[@accessiblename~'^Online\\ flight\\ booking,\\ Ho']/container[@accessiblename='Google Chrome']/container[2]/container[1]/container[@accessiblerole='Pane']/container[1]/container[2]", 30000, null, "675e513b-ba2a-49f0-b8f3-e12b62b67d8e");
                 _reloadInfo = new RepoItemInfo(this, "Reload", "container[@accessiblename~'^Online\\ flight\\ booking,\\ Ho']/container[@accessiblename='Google Chrome']//button[@accessiblename='Reload']", 30000, null, "9d03196c-f316-4fce-8a06-d0253340b43d");
+                _close2Info = new RepoItemInfo(this, "Close2", "container[@accessiblename~'^Online\\ flight\\ booking,\\ Ho']/container[@accessiblename='Google Chrome']//tabpage[@accessiblerole='PageTab' and @title~'^Online\\ flight\\ booking,\\ Ho' and @index='4']/button[@accessiblename='Close']", 30000, null, "bd623eec-636e-4c91-9cd0-e27a75d18a6a");
+                _close4Info = new RepoItemInfo(this, "Close4", "container[@accessiblename~'^Online\\ flight\\ booking,\\ Ho']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename~'^Online\\ flight\\ booking,\\ Ho']/button[@accessiblename='Close']", 30000, null, "09eec1d9-71f7-4bf9-af32-99ae46f3dd13");
+                _close16Info = new RepoItemInfo(this, "Close16", "container[@accessiblename~'^Train\\ Ticket\\ Booking,\\ IRC']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename~'^Train\\ Ticket\\ Booking,\\ IRC']/button[@accessiblename='Close']", 30000, null, "d4dabd18-7f45-452c-9038-84f8943c54be");
             }
 
             /// <summary>
@@ -15456,6 +15592,78 @@ namespace GI_Desktop
             }
 
             /// <summary>
+            /// The Close2 item.
+            /// </summary>
+            [RepositoryItem("bd623eec-636e-4c91-9cd0-e27a75d18a6a")]
+            public virtual Ranorex.Button Close2
+            {
+                get
+                {
+                    return _close2Info.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Close2 item info.
+            /// </summary>
+            [RepositoryItemInfo("bd623eec-636e-4c91-9cd0-e27a75d18a6a")]
+            public virtual RepoItemInfo Close2Info
+            {
+                get
+                {
+                    return _close2Info;
+                }
+            }
+
+            /// <summary>
+            /// The Close4 item.
+            /// </summary>
+            [RepositoryItem("09eec1d9-71f7-4bf9-af32-99ae46f3dd13")]
+            public virtual Ranorex.Button Close4
+            {
+                get
+                {
+                    return _close4Info.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Close4 item info.
+            /// </summary>
+            [RepositoryItemInfo("09eec1d9-71f7-4bf9-af32-99ae46f3dd13")]
+            public virtual RepoItemInfo Close4Info
+            {
+                get
+                {
+                    return _close4Info;
+                }
+            }
+
+            /// <summary>
+            /// The Close16 item.
+            /// </summary>
+            [RepositoryItem("d4dabd18-7f45-452c-9038-84f8943c54be")]
+            public virtual Ranorex.Button Close16
+            {
+                get
+                {
+                    return _close16Info.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Close16 item info.
+            /// </summary>
+            [RepositoryItemInfo("d4dabd18-7f45-452c-9038-84f8943c54be")]
+            public virtual RepoItemInfo Close16Info
+            {
+                get
+                {
+                    return _close16Info;
+                }
+            }
+
+            /// <summary>
             /// The GoogleChrome folder.
             /// </summary>
             [RepositoryFolder("ddde4f54-8cdf-471c-894d-1003573c8afe")]
@@ -15830,6 +16038,9 @@ namespace GI_Desktop
             RepoItemInfo _paneInfo;
             RepoItemInfo _pane1Info;
             RepoItemInfo _backInfo;
+            RepoItemInfo _close2Info;
+            RepoItemInfo _close3Info;
+            RepoItemInfo _close4Info;
 
             /// <summary>
             /// Creates a new GoibiboGoogleChrome  folder.
@@ -15842,6 +16053,9 @@ namespace GI_Desktop
                 _paneInfo = new RepoItemInfo(this, "Pane", "container[@accessiblename='Goibibo - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[1]/container[@accessiblerole='Pane']/container[1]/container[2]", 30000, null, "42c31750-f92e-46bb-9856-816e128c8aa3");
                 _pane1Info = new RepoItemInfo(this, "Pane1", "container[@accessiblename='Goibibo - Google Chrome']/container/container[2]/container[1]", 30000, null, "085f435d-98bd-4ce7-a4fc-786b8697b17d");
                 _backInfo = new RepoItemInfo(this, "Back", "container[@accessiblename='Goibibo - Google Chrome']/container[@accessiblename='Google Chrome']//button[@accessiblename='Back']", 30000, null, "a346e4b5-b458-4886-ac84-6ae1dcff04c4");
+                _close2Info = new RepoItemInfo(this, "Close2", "container[@accessiblename~'^Goibibo\\ Train\\ Ticket\\ Book']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename~'^Goibibo\\ Train\\ Ticket\\ Book']/button[@accessiblename='Close']", 30000, null, "319d8f5c-3b44-42ce-9ca1-f98525336c11");
+                _close3Info = new RepoItemInfo(this, "Close3", "container[@accessiblename~'^Goibibo\\ Mobile\\ –\\ Download']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename~'^Goibibo\\ Mobile\\ –\\ Download']/button[@accessiblename='Close']", 30000, null, "c0d99df0-85d1-42fc-a1d6-921568c59ad6");
+                _close4Info = new RepoItemInfo(this, "Close4", "container[@accessiblename~'^Train\\ Live\\ Running\\ Status']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename~'^Train\\ Live\\ Running\\ Status']/button[@accessiblename='Close']", 30000, null, "9bf94292-2bf3-4be2-ad60-19c016e3b2d7");
             }
 
             /// <summary>
@@ -15985,6 +16199,78 @@ namespace GI_Desktop
                 get
                 {
                     return _backInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Close2 item.
+            /// </summary>
+            [RepositoryItem("319d8f5c-3b44-42ce-9ca1-f98525336c11")]
+            public virtual Ranorex.Button Close2
+            {
+                get
+                {
+                    return _close2Info.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Close2 item info.
+            /// </summary>
+            [RepositoryItemInfo("319d8f5c-3b44-42ce-9ca1-f98525336c11")]
+            public virtual RepoItemInfo Close2Info
+            {
+                get
+                {
+                    return _close2Info;
+                }
+            }
+
+            /// <summary>
+            /// The Close3 item.
+            /// </summary>
+            [RepositoryItem("c0d99df0-85d1-42fc-a1d6-921568c59ad6")]
+            public virtual Ranorex.Button Close3
+            {
+                get
+                {
+                    return _close3Info.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Close3 item info.
+            /// </summary>
+            [RepositoryItemInfo("c0d99df0-85d1-42fc-a1d6-921568c59ad6")]
+            public virtual RepoItemInfo Close3Info
+            {
+                get
+                {
+                    return _close3Info;
+                }
+            }
+
+            /// <summary>
+            /// The Close4 item.
+            /// </summary>
+            [RepositoryItem("9bf94292-2bf3-4be2-ad60-19c016e3b2d7")]
+            public virtual Ranorex.Button Close4
+            {
+                get
+                {
+                    return _close4Info.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Close4 item info.
+            /// </summary>
+            [RepositoryItemInfo("9bf94292-2bf3-4be2-ad60-19c016e3b2d7")]
+            public virtual RepoItemInfo Close4Info
+            {
+                get
+                {
+                    return _close4Info;
                 }
             }
         }

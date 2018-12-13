@@ -82,6 +82,9 @@ namespace GI_Desktop
             Report.Log(ReportLevel.Info, "Website", "Opening web site '\r\nhttps://www.goibibo.com/logoutuser/' with browser 'Chrome' in normal mode .", new RecordItemIndex(0));
             Host.Current.OpenBrowser("\r\nhttps://www.goibibo.com/logoutuser/", "Chrome", "", false, false, false, false, false, true);
             
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp1.Close2' at 15;15.", repo.OnlineFlightBookingHotelsBusAmp1.Close2Info, new RecordItemIndex(1));
+            repo.OnlineFlightBookingHotelsBusAmp1.Close2.Click("15;15");
+            
         }
 
 #region Image Feature Data

@@ -151,8 +151,8 @@ namespace GI_Desktop
             Mouse.ScrollWheel(5000);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'GoibiboGoogleChrome.Close1' at 16;17.", repo.GoibiboGoogleChrome.Close1Info, new RecordItemIndex(18));
-            repo.GoibiboGoogleChrome.Close1.Click("16;17");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'GoibiboGoogleChrome.Close1' at 11;18.", repo.GoibiboGoogleChrome.Close1Info, new RecordItemIndex(18));
+            repo.GoibiboGoogleChrome.Close1.Click("11;18");
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.goibibo.com/myaccount/gocash/' with browser 'Chrome' in normal mode .", new RecordItemIndex(19));
@@ -169,6 +169,158 @@ namespace GI_Desktop
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'GoibiboGoogleChrome.Close1' at 14;16.", repo.GoibiboGoogleChrome.Close1Info, new RecordItemIndex(22));
             repo.GoibiboGoogleChrome.Close1.Click("14;16");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.goibibo.com/offers/' with browser 'Chrome' in normal mode .", new RecordItemIndex(23));
+            Host.Current.OpenBrowser("https://www.goibibo.com/offers/", "Chrome", "", false, false, false, false, false, true);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -1680 units.", new RecordItemIndex(24));
+            Mouse.ScrollWheel(-1680);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 1560 units.", new RecordItemIndex(25));
+            Mouse.ScrollWheel(1560);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.FaIconFlightsIconsLe' at 16;8.", repo.OnlineFlightBookingHotelsBusAmp.FaIconFlightsIconsLeInfo, new RecordItemIndex(26));
+            repo.OnlineFlightBookingHotelsBusAmp.FaIconFlightsIconsLe.Click("16;8");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -1560 units.", new RecordItemIndex(27));
+            Mouse.ScrollWheel(-1560);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 960 units.", new RecordItemIndex(28));
+            Mouse.ScrollWheel(960);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.FaIconHotelsIconsLe' at 3;18.", repo.OnlineFlightBookingHotelsBusAmp.FaIconHotelsIconsLeInfo, new RecordItemIndex(29));
+            repo.OnlineFlightBookingHotelsBusAmp.FaIconHotelsIconsLe.Click("3;18");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -1320 units.", new RecordItemIndex(30));
+            Mouse.ScrollWheel(-1320);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 960 units.", new RecordItemIndex(31));
+            Mouse.ScrollWheel(960);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.FaIconBusIconsLe' at 13;5.", repo.OnlineFlightBookingHotelsBusAmp.FaIconBusIconsLeInfo, new RecordItemIndex(32));
+            repo.OnlineFlightBookingHotelsBusAmp.FaIconBusIconsLe.Click("13;5");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -1200 units.", new RecordItemIndex(33));
+            Mouse.ScrollWheel(-1200);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 720 units.", new RecordItemIndex(34));
+            Mouse.ScrollWheel(720);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.HttpsWwwGoibiboComOffersGocarOff' at 28;26.", repo.OnlineFlightBookingHotelsBusAmp.HttpsWwwGoibiboComOffersGocarOffInfo, new RecordItemIndex(35));
+            repo.OnlineFlightBookingHotelsBusAmp.HttpsWwwGoibiboComOffersGocarOff.Click("28;26");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -1200 units.", new RecordItemIndex(36));
+            Mouse.ScrollWheel(-1200);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 600 units.", new RecordItemIndex(37));
+            Mouse.ScrollWheel(600);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.HttpsWwwGoibiboComOffersTrainOff' at 35;37.", repo.OnlineFlightBookingHotelsBusAmp.HttpsWwwGoibiboComOffersTrainOffInfo, new RecordItemIndex(38));
+            repo.OnlineFlightBookingHotelsBusAmp.HttpsWwwGoibiboComOffersTrainOff.Click("35;37");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -480 units.", new RecordItemIndex(39));
+            Mouse.ScrollWheel(-480);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 600 units.", new RecordItemIndex(40));
+            Mouse.ScrollWheel(600);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'GoibiboGoogleChrome.Close2' at 7;15.", repo.GoibiboGoogleChrome.Close2Info, new RecordItemIndex(41));
+            repo.GoibiboGoogleChrome.Close2.Click("7;15");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.goibibo.com/mobile/' with browser 'Chrome' in normal mode .", new RecordItemIndex(42));
+            Host.Current.OpenBrowser("https://www.goibibo.com/mobile/", "Chrome", "", false, false, false, false, false, true);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -1200 units.", new RecordItemIndex(43));
+            Mouse.ScrollWheel(-1200);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 120 units.", new RecordItemIndex(44));
+            Mouse.ScrollWheel(120);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -2280 units.", new RecordItemIndex(45));
+            Mouse.ScrollWheel(-2280);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 3960 units.", new RecordItemIndex(46));
+            Mouse.ScrollWheel(3960);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'GoibiboGoogleChrome.Close3' at 7;14.", repo.GoibiboGoogleChrome.Close3Info, new RecordItemIndex(47));
+            repo.GoibiboGoogleChrome.Close3.Click("7;14");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.goibibo.com/trains/check-train-running-status/' with browser 'Chrome' in normal mode .", new RecordItemIndex(48));
+            Host.Current.OpenBrowser("https://www.goibibo.com/trains/check-train-running-status/", "Chrome", "", false, false, false, false, false, true);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.TrainRunStTrainDetails' at 268;15.", repo.OnlineFlightBookingHotelsBusAmp.TrainRunStTrainDetailsInfo, new RecordItemIndex(49));
+            repo.OnlineFlightBookingHotelsBusAmp.TrainRunStTrainDetails.Click("268;15");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '12190' with focus on 'OnlineFlightBookingHotelsBusAmp.TrainRunStTrainDetails'.", repo.OnlineFlightBookingHotelsBusAmp.TrainRunStTrainDetailsInfo, new RecordItemIndex(50));
+            repo.OnlineFlightBookingHotelsBusAmp.TrainRunStTrainDetails.PressKeys("12190");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.SomeLiTag' at 252;8.", repo.OnlineFlightBookingHotelsBusAmp.SomeLiTagInfo, new RecordItemIndex(51));
+            repo.OnlineFlightBookingHotelsBusAmp.SomeLiTag.Click("252;8");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -360 units.", new RecordItemIndex(52));
+            Mouse.ScrollWheel(-360);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.TrainRunningStatus' at 349;38.", repo.OnlineFlightBookingHotelsBusAmp.TrainRunningStatusInfo, new RecordItemIndex(53));
+            repo.OnlineFlightBookingHotelsBusAmp.TrainRunningStatus.Click("349;38");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -1200 units.", new RecordItemIndex(54));
+            Mouse.ScrollWheel(-1200);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 1440 units.", new RecordItemIndex(55));
+            Mouse.ScrollWheel(1440);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'GoibiboGoogleChrome.Close4' at 13;11.", repo.GoibiboGoogleChrome.Close4Info, new RecordItemIndex(56));
+            repo.GoibiboGoogleChrome.Close4.Click("13;11");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Website", "Opening web site '\r\nhttps://www.goibibo.com/logoutuser/' with browser 'Chrome' in normal mode .", new RecordItemIndex(57));
+            Host.Current.OpenBrowser("\r\nhttps://www.goibibo.com/logoutuser/", "Chrome", "", false, false, false, false, false, true);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp1.Close2' at 15;15.", repo.OnlineFlightBookingHotelsBusAmp1.Close2Info, new RecordItemIndex(58));
+            repo.OnlineFlightBookingHotelsBusAmp1.Close2.Click("15;15");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp1.Close4' at 11;16.", repo.OnlineFlightBookingHotelsBusAmp1.Close4Info, new RecordItemIndex(59));
+            repo.OnlineFlightBookingHotelsBusAmp1.Close4.Click("11;16");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp1.Close16' at 12;14.", repo.OnlineFlightBookingHotelsBusAmp1.Close16Info, new RecordItemIndex(60));
+            repo.OnlineFlightBookingHotelsBusAmp1.Close16.Click("12;14");
             Delay.Milliseconds(200);
             
         }
