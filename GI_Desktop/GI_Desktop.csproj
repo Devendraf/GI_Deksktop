@@ -206,6 +206,18 @@
       <UserCode>true</UserCode>
       <id>ad884343-c1e6-4a79-9ba6-94e7c0cde17c</id>
     </Compile>
+    <Compile Include="International_hotel.cs">
+      <BoundTo>4dd7f59f-f212-4b52-ae93-5fd1a3783356</BoundTo>
+      <DependentUpon>International_hotel.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c3bc2c72-1039-429d-b3c4-3c808d949082</id>
+    </Compile>
+    <Compile Include="International_hotel.UserCode.cs">
+      <BoundTo>4dd7f59f-f212-4b52-ae93-5fd1a3783356</BoundTo>
+      <DependentUpon>International_hotel.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>957c7902-2af5-4ceb-9a59-179a2ae1df4e</id>
+    </Compile>
     <Compile Include="Multicity.cs">
       <BoundTo>cb3ccf53-d7d5-444b-a4f8-a340f2bfc8e6</BoundTo>
       <DependentUpon>Multicity.rxrec</DependentUpon>
@@ -331,6 +343,11 @@
       <id>9013c27b-cede-49ef-a52b-52f1aafe49ef</id>
       <recordtableid>edc49927-75b1-4dfa-8e08-0cf222bd0ec4</recordtableid>
       <BoundTo>182d9c6b-4538-45c7-aa53-a63bb446fa23</BoundTo>
+    </None>
+    <None Include="International_hotel.rxrec">
+      <BoundTo>182d9c6b-4538-45c7-aa53-a63bb446fa23</BoundTo>
+      <id>4dd7f59f-f212-4b52-ae93-5fd1a3783356</id>
+      <recordtableid>5ea96b67-c1ab-453e-8163-93c5696c5493</recordtableid>
     </None>
     <None Include="Multicity.rxrec">
       <BoundTo>182d9c6b-4538-45c7-aa53-a63bb446fa23</BoundTo>

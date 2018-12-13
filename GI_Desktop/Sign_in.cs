@@ -119,10 +119,6 @@ namespace GI_Desktop
             repo.OnlineFlightBookingHotelsBusAmp.HttpsGoibiboIbcdnComStyleguideIma.Click("71;16");
             Delay.Milliseconds(930);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.Authiframe.AuthMobile' at 146;15.", repo.OnlineFlightBookingHotelsBusAmp.Authiframe.AuthMobileInfo, new RecordItemIndex(10));
-            repo.OnlineFlightBookingHotelsBusAmp.Authiframe.AuthMobile.Click("146;15");
-            Delay.Milliseconds(200);
-            
         }
 
 #region Image Feature Data

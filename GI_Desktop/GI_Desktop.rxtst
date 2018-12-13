@@ -8,11 +8,14 @@ rxversion="8.3">
 			name="Flight_Vertical">
 			</testcase>
 			<testcase
+			id="0cc15067-0d5b-46d3-926c-5538cedcd915"
+			name="International_Hotel">
+			</testcase>
+			<testcase
 			id="0ebd81ee-33d2-4c0a-b66c-8923467a9c67"
 			name="Bus_Vertical">
 			</testcase>
 			<testmodule
-			enabled="False"
 			id="14e37ebc-5e7d-4972-9aed-99d04045a6d1"
 			name="Domestic"
 			ref="01e50407-141f-4993-8dcc-b63758b4004a"
@@ -71,6 +74,12 @@ rxversion="8.3">
 			name="GI_Desktop"
 			reportlevel="Info;20">
 			</testcase>
+			<testmodule
+			id="9a9059a5-8c79-41b7-a020-30765c71eda1"
+			name="International_hotel"
+			ref="5ea96b67-c1ab-453e-8163-93c5696c5493"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="ba6592a1-1b2f-468b-b173-b98988dd0e57"
 			name="International_flight">
@@ -158,6 +167,14 @@ rxversion="8.3">
 						</testmodule>
 					</testcase>
 					<testcase
+					id="79e003c6-1c7a-4bec-bec9-2b7ead598c62"
+					name="Multicity">
+						<testmodule
+						id="e3680a26-dc25-41c9-9aad-9e397dc268e8"
+						name="Multicity">
+						</testmodule>
+					</testcase>
+					<testcase
 					id="7ff74cc2-b6b8-48b5-959e-71cd5b133c51"
 					name="Hotel_Vertical">
 						<testmodule
@@ -206,11 +223,11 @@ rxversion="8.3">
 						</testmodule>
 					</testcase>
 					<testcase
-					id="79e003c6-1c7a-4bec-bec9-2b7ead598c62"
-					name="Multicity">
+					id="0cc15067-0d5b-46d3-926c-5538cedcd915"
+					name="International_Hotel">
 						<testmodule
-						id="e3680a26-dc25-41c9-9aad-9e397dc268e8"
-						name="Multicity">
+						id="9a9059a5-8c79-41b7-a020-30765c71eda1"
+						name="International_hotel">
 						</testmodule>
 					</testcase>
 				</testcase>
@@ -225,6 +242,9 @@ rxversion="8.3">
 		name="TestRun">
 			<testcontainer
 			id="0aaab91e-d5ef-486f-aada-67edbaa6efff">
+			</testcontainer>
+			<testcontainer
+			id="0cc15067-0d5b-46d3-926c-5538cedcd915">
 			</testcontainer>
 			<testcontainer
 			id="0ebd81ee-33d2-4c0a-b66c-8923467a9c67">
