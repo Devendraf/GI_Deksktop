@@ -7061,6 +7061,7 @@ AElFTkSuQmCC
 		id="19946f24-849a-49c8-8dc0-a24a2d388bcb"
 		isrooted="True"
 		name="OnlineHotelBookingBookCheapBudge"
+		refimgid="3f2b3527-b48f-402e-8de7-51697c977fc4"
 		refpath="/dom[@domain='www.goibibo.com']"
 		searchtimeout="30000ms"
 		usecache="False">
@@ -7489,6 +7490,16 @@ AElFTkSuQmCC
 			refpath="/dom[@domain='www.goibibo.com']//a[#'airlinesFilter']/span/span[@innertext='Airlines']"
 			searchtimeout="30000ms">
 				/dom[@domain='www.goibibo.com']//a[#'airlinesFilter']/?/?/span[@innertext='Airlines']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="c2042598-9715-4b4e-be1a-419d356d623d"
+			name="Width100FlGreyBg"
+			refimgid="f5ed5c34-5160-41ca-8ec8-9a87cec032f8"
+			refpath="/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[4]"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[4]
 			</item>
 			<basepath>
 				/dom[@domain='www.goibibo.com']

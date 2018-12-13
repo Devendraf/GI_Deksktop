@@ -483,6 +483,10 @@ namespace GI_Desktop
             repo.StateBankOfIndiaInternetBanking1.ClickHere.Click("29;3");
             Delay.Milliseconds(200);
             
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OnlineFlightBookingHotelsBusAmp.HttpsGoibiboIbcdnComStyleguideIma1' at 22;6.", repo.OnlineFlightBookingHotelsBusAmp.HttpsGoibiboIbcdnComStyleguideIma1Info, new RecordItemIndex(101));
+            repo.OnlineFlightBookingHotelsBusAmp.HttpsGoibiboIbcdnComStyleguideIma1.Click("22;6");
+            Delay.Milliseconds(200);
+            
         }
 
 #region Image Feature Data

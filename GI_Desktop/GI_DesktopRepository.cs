@@ -16336,6 +16336,7 @@ namespace GI_Desktop
             RepoItemInfo _smalltag5pm9pmInfo;
             RepoItemInfo _stopsInfo;
             RepoItemInfo _airlinesInfo;
+            RepoItemInfo _width100flgreybgInfo;
 
             /// <summary>
             /// Creates a new OnlineHotelBookingBookCheapBudge  folder.
@@ -16372,6 +16373,7 @@ namespace GI_Desktop
                 _smalltag5pm9pmInfo = new RepoItemInfo(this, "SmallTag5PM9PM", ".//span[#'onw_5-9']/small[@innertext='5PM - 9PM']", 30000, null, "5d730aa3-e654-4ecd-a545-57f36f4b98c6");
                 _stopsInfo = new RepoItemInfo(this, "Stops", ".//a[#'stopsFilter']/?/?/span[@innertext='Stops']", 30000, null, "429ac0bb-f764-4d0d-978d-201823a911fe");
                 _airlinesInfo = new RepoItemInfo(this, "Airlines", ".//a[#'airlinesFilter']/?/?/span[@innertext='Airlines']", 30000, null, "a5d63bd3-4fa7-457d-9f93-324d599ce326");
+                _width100flgreybgInfo = new RepoItemInfo(this, "Width100FlGreyBg", ".//div[#'content']/div/div[2]/div/div[4]", 30000, null, "c2042598-9715-4b4e-be1a-419d356d623d");
             }
 
             /// <summary>
@@ -17043,6 +17045,30 @@ namespace GI_Desktop
                 get
                 {
                     return _airlinesInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Width100FlGreyBg item.
+            /// </summary>
+            [RepositoryItem("c2042598-9715-4b4e-be1a-419d356d623d")]
+            public virtual Ranorex.DivTag Width100FlGreyBg
+            {
+                get
+                {
+                    return _width100flgreybgInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Width100FlGreyBg item info.
+            /// </summary>
+            [RepositoryItemInfo("c2042598-9715-4b4e-be1a-419d356d623d")]
+            public virtual RepoItemInfo Width100FlGreyBgInfo
+            {
+                get
+                {
+                    return _width100flgreybgInfo;
                 }
             }
 

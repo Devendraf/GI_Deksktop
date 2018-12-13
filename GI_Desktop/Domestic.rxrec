@@ -8767,6 +8767,161 @@ wIJ3EEHtjjr680dRdC5RRRQMKKKKAET/AFa/QUtFFAIKKKKACiiigAooooAKKKKACiiigAooooAK
 KKKACiiigAooooA//9k=
 			</helperscreenshot>
 		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="22;6"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a7e2f9c7-009a-4fc3-9e7b-218df4862cc8"
+		sx="49"
+		sy="135"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1dad9ca5-c87d-4104-aed1-687bd5366ad4"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, imgtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="imgtag"
+				rect="27,129,105,36"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						img
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						36
+					</attribute>
+					<attribute
+					name="hspace"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="src"
+					type="System.String">
+						https://goibibo.ibcdn.com/styleguide/images/goLogo.png
+					</attribute>
+					<attribute
+					name="vspace"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						105
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="onload"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="pagespeed_url_hash"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='www.goibibo.com']/body/div[1]/?/?/a[@href='https://www.goibibo.com/']/img[@src='https://goibibo.ibcdn.com/styleguide/images/goLogo.png']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="433ca341-297a-4033-8a8e-0e12d8417eda">
+				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
+jZLk+pooopkn/9k=
+			</helperscreenshot>
+		</mouseitem>
 	</recorditems>
 	<repository
 	id="39483646-ed05-4655-8673-6db78668a12a"
