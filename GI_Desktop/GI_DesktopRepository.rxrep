@@ -1256,6 +1256,16 @@ dL5DRMIRjnCEIxyxOsSa3hPhCEc4whFuujmd7xCRcIQjXFC4fzwlA6GWqpHgAAAAAElFTkSuQmCC
 				searchtimeout="30000ms">
 					/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[2]/div/div[1]/div[1]/?/?/a[@innertext='View on Map']
 				</item>
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="8d201093-2a93-49a2-a689-64be8f158dca"
+				name="ProceedToPayment"
+				refimgid="d9766e70-aebf-4de7-83ba-bdd7ca6770d8"
+				refpath="/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[2]/div/div[1]/div[3]/div[2]/div[3]/button[@innertext='Proceed To Payment']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[2]/div/div[1]/div[3]/div[2]/div[3]/button[@innertext='Proceed To Payment']
+				</item>
 				<basepath>
 					/dom[@domain='www.goibibo.com']//div[#'content']/div/div[2]/div/div[2]/div/div[1]
 				</basepath>
@@ -6040,6 +6050,16 @@ gIHuGECgI9DxlMEADMAADMAADMAADMAADMAADETAwP8PurBoTTK4qCgAAAAASUVORK5CYII=
 			searchtimeout="30000ms">
 				/dom[@domain='www.goibibo.com']//li[#'react-autosuggest-1-suggestion--0']/div/div[1]/?/?/span[@innertext~'^Mumbai\ Dadar\ Central\ Rail']
 			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="76db3701-9af9-4b02-bfa5-174ccfc9829f"
+			name="Fare20181220"
+			refimgid="d750f6b1-07bf-4843-95e7-85b632898260"
+			refpath="/dom[@domain='www.goibibo.com']//div[#'fare_20181220']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.goibibo.com']//div[#'fare_20181220']
+			</item>
 			<basepath>
 				/dom[@domain='www.goibibo.com']
 			</basepath>
@@ -8074,32 +8094,6 @@ X/kbNG0rDiYbOAsAAAAASUVORK5CYII=
 				</icon>
 			</appfolder>
 		</folder>
-		<appfolder
-		addcaps="container"
-		capname="container"
-		id="6ee57ec5-c3ee-4a2b-b298-8e61aa9f12f5"
-		isrooted="True"
-		name="Dropdown"
-		refimgid="92dfea6c-61c7-411e-9aa9-d6e3b7cbd442"
-		refpath="/container[@caption='dropdown']"
-		searchtimeout="30000ms"
-		usecache="True">
-			<basepath>
-				/container[@caption='dropdown']
-			</basepath>
-			<icon>
-				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
-AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
-dC5ORVQgdjMuMzE3g3eGAAABgUlEQVQ4T8WPvUsCcRjHb++F/oSGiMiiV4qWakiiqWyJGiK0cmxw
-kUhtMHqzTuWC0KKh2ZBqsTSHlt6oNkENBPWOoJZCKt++3c/fWRcVlg09x4fnhec+9xzD/DX6HBG0
-cXE02gXUWwUobDzqWB4Ndl7seVSLdZUlBgUroNZ6i1ZbFJ3zl+D8UeS+Xa71omLch1KNF2VizkP6
-EjWF1DX6E1TqztA+tYfBoRnouR24XC4w5v0IApE4rsIxXIfjMuR9DOfBKC5ETkMCfME7jEw7wbIs
-mI3je+Qji48PmX81I/PuyTUqWPcL0vtJMRciJe6kctIerZ0KHEdxmYAsFJIkqWCClX7BG/3FBURO
-LkhDqVmhgs3DSBGCDJTqJSrY8twUJxhboIJtTygnyCIjkc6d+D1kL4ve0TkqcO4G8JhI4iHxIvIs
-8iTVpP9MfvdNoJ49QMcwh2aVRWJZVudn77mpfxEtqlV0DejoBSQ4joPJZILRaPwRBoMBZrMZbreb
-Cv41XgFSqqerh1/qsAAAAABJRU5ErkJggg==
-			</icon>
-		</appfolder>
 		<appfolder
 		addcaps="form,nativewindow"
 		capname="form"

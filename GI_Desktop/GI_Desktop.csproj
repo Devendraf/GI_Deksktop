@@ -389,6 +389,56 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>074b0ea8-583b-4470-b357-962f0eeacc23</id>
     </Content>
+    <Content Include="NewCustomTemplate1\RanorexReport.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>05e13181-43e6-43cd-9cdf-3b212413baac</id>
+    </Content>
+    <Content Include="NewCustomTemplate1\RanorexReport.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>9f68f0e9-f6da-4713-91fc-0b99cd25a204</id>
+    </Content>
+    <Content Include="NewCustomTemplate1\RanorexReport.xsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>4437c3e6-05cc-483c-b846-c3fa5ebb0859</id>
+    </Content>
+    <Content Include="NewCustomTemplate1\View.rxlog">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>b046754b-3715-40e4-91ac-8af62e540d9a</id>
+    </Content>
+    <Content Include="NewCustomTemplate1\View.rxlog.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>57bcfe2a-6ef3-4641-8ab3-4f731bef8944</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\RanorexReport.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>10fd4f73-fd7b-4c29-914d-b1ddfa7e8320</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\RanorexReport.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>fc28382e-ec85-42a3-bfd8-f2687101e28d</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\RanorexReport.xsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>9e2fc406-a461-4860-abd2-e6946c493e20</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\View.rxlog">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>899f9d7c-20cb-4476-b8f6-92232499e4b3</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\View.rxlog.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>c289a6fd-bcf4-4a63-b9f1-9e136cc9c32a</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewCustomTemplate1">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>470e27aa-c04c-4940-9471-fdf5f77e1883</id>
+    </Folder>
+    <Folder Include="NewCustomTemplate2">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>b52a5b06-03f1-4ae4-8687-2d0354ce3f47</id>
+    </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />

@@ -46,7 +46,6 @@ namespace GI_Desktop
         GI_DesktopRepositoryFolders.OnlineHotelBookingBookCheapBudgeAppFolder _onlinehotelbookingbookcheapbudge;
         GI_DesktopRepositoryFolders.StateBankOfIndiaInternetBanking1AppFolder _statebankofindiainternetbanking1;
         GI_DesktopRepositoryFolders.TrainFolder _train;
-        GI_DesktopRepositoryFolders.DropdownAppFolder _dropdown;
         GI_DesktopRepositoryFolders.TrainTicketBookingIRCTCTicketBookiAppFolder1 _trainticketbookingirctcticketbooki;
 
         /// <summary>
@@ -83,7 +82,6 @@ namespace GI_Desktop
             _onlinehotelbookingbookcheapbudge = new GI_DesktopRepositoryFolders.OnlineHotelBookingBookCheapBudgeAppFolder(this);
             _statebankofindiainternetbanking1 = new GI_DesktopRepositoryFolders.StateBankOfIndiaInternetBanking1AppFolder(this);
             _train = new GI_DesktopRepositoryFolders.TrainFolder(this);
-            _dropdown = new GI_DesktopRepositoryFolders.DropdownAppFolder(this);
             _trainticketbookingirctcticketbooki = new GI_DesktopRepositoryFolders.TrainTicketBookingIRCTCTicketBookiAppFolder1(this);
         }
 
@@ -272,15 +270,6 @@ namespace GI_Desktop
         public virtual GI_DesktopRepositoryFolders.TrainFolder Train
         {
             get { return _train; }
-        }
-
-        /// <summary>
-        /// The Dropdown folder.
-        /// </summary>
-        [RepositoryFolder("6ee57ec5-c3ee-4a2b-b298-8e61aa9f12f5")]
-        public virtual GI_DesktopRepositoryFolders.DropdownAppFolder Dropdown
-        {
-            get { return _dropdown; }
         }
 
         /// <summary>
@@ -621,6 +610,7 @@ namespace GI_Desktop
             RepoItemInfo _somelitagInfo;
             RepoItemInfo _trainrunningstatusInfo;
             RepoItemInfo _mumbaidadarcentralrailwaystationInfo;
+            RepoItemInfo _fare20181220Info;
 
             /// <summary>
             /// Creates a new OnlineFlightBookingHotelsBusAmp  folder.
@@ -878,6 +868,7 @@ namespace GI_Desktop
                 _somelitagInfo = new RepoItemInfo(this, "SomeLiTag", ".//ul[#'train_run_st_train_details_suggestionWrapper']/li", 30000, null, "072574bf-aea3-4add-9131-83644b59bf7a");
                 _trainrunningstatusInfo = new RepoItemInfo(this, "TrainRunningStatus", ".//span[#'trainRunningStatus']", 30000, null, "6247a362-dc46-44dd-9be8-41ea72d4a064");
                 _mumbaidadarcentralrailwaystationInfo = new RepoItemInfo(this, "MumbaiDadarCentralRailwayStation", ".//li[#'react-autosuggest-1-suggestion--0']/div/div[1]/?/?/span[@innertext~'^Mumbai\\ Dadar\\ Central\\ Rail']", 30000, null, "470b9b68-1ade-4976-8eac-00b753653e24");
+                _fare20181220Info = new RepoItemInfo(this, "Fare20181220", ".//div[#'fare_20181220']", 30000, null, "76db3701-9af9-4b02-bfa5-174ccfc9829f");
             }
 
             /// <summary>
@@ -7234,6 +7225,30 @@ namespace GI_Desktop
             }
 
             /// <summary>
+            /// The Fare20181220 item.
+            /// </summary>
+            [RepositoryItem("76db3701-9af9-4b02-bfa5-174ccfc9829f")]
+            public virtual Ranorex.DivTag Fare20181220
+            {
+                get
+                {
+                    return _fare20181220Info.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Fare20181220 item info.
+            /// </summary>
+            [RepositoryItemInfo("76db3701-9af9-4b02-bfa5-174ccfc9829f")]
+            public virtual RepoItemInfo Fare20181220Info
+            {
+                get
+                {
+                    return _fare20181220Info;
+                }
+            }
+
+            /// <summary>
             /// The Authiframe folder.
             /// </summary>
             [RepositoryFolder("8219a98e-3b36-4152-b4c0-7cf04a4ae35c")]
@@ -7582,6 +7597,7 @@ namespace GI_Desktop
             RepoItemInfo _fliconuserblueico30padt5padl5Info;
             RepoItemInfo _getsetgo2Info;
             RepoItemInfo _viewonmap2Info;
+            RepoItemInfo _proceedtopaymentInfo;
 
             /// <summary>
             /// Creates a new FlightDetailsFl  folder.
@@ -7661,6 +7677,7 @@ namespace GI_Desktop
                 _fliconuserblueico30padt5padl5Info = new RepoItemInfo(this, "FlIconUserBlueIco30PadT5PadL5", "?/?/i", 30000, null, "6e422494-530d-4fc8-9e20-99a1bd93a804");
                 _getsetgo2Info = new RepoItemInfo(this, "GetSetGo2", "div[1]/div[3]//button[@innertext='Get Set Go']", 30000, null, "5eba4206-b402-4281-83ba-ee85a16eae9b");
                 _viewonmap2Info = new RepoItemInfo(this, "ViewOnMap2", "div[1]/?/?/a[@innertext='View on Map']", 30000, null, "19d75d58-2080-4966-8c71-fa1f2624c165");
+                _proceedtopaymentInfo = new RepoItemInfo(this, "ProceedToPayment", "div[3]/div[2]/div[3]/button[@innertext='Proceed To Payment']", 30000, null, "8d201093-2a93-49a2-a689-64be8f158dca");
             }
 
             /// <summary>
@@ -9657,6 +9674,30 @@ namespace GI_Desktop
                 get
                 {
                     return _viewonmap2Info;
+                }
+            }
+
+            /// <summary>
+            /// The ProceedToPayment item.
+            /// </summary>
+            [RepositoryItem("8d201093-2a93-49a2-a689-64be8f158dca")]
+            public virtual Ranorex.ButtonTag ProceedToPayment
+            {
+                get
+                {
+                    return _proceedtopaymentInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ProceedToPayment item info.
+            /// </summary>
+            [RepositoryItemInfo("8d201093-2a93-49a2-a689-64be8f158dca")]
+            public virtual RepoItemInfo ProceedToPaymentInfo
+            {
+                get
+                {
+                    return _proceedtopaymentInfo;
                 }
             }
         }
@@ -18900,46 +18941,6 @@ namespace GI_Desktop
                 get
                 {
                     return _clickhereInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The DropdownAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("6ee57ec5-c3ee-4a2b-b298-8e61aa9f12f5")]
-        public partial class DropdownAppFolder : RepoGenBaseFolder
-        {
-
-            /// <summary>
-            /// Creates a new Dropdown  folder.
-            /// </summary>
-            public DropdownAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("Dropdown", "/container[@caption='dropdown']", parentFolder, 30000, null, true, "6ee57ec5-c3ee-4a2b-b298-8e61aa9f12f5", "")
-            {
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("6ee57ec5-c3ee-4a2b-b298-8e61aa9f12f5")]
-            public virtual Ranorex.Container Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("6ee57ec5-c3ee-4a2b-b298-8e61aa9f12f5")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
                 }
             }
         }
