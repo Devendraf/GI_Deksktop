@@ -8142,6 +8142,32 @@ BhnoTDxo/amHC2lz/p9h3UjOMcTazxoGgzPUaHDx+3P660ranCE3/zV7Pf7k39pysDvqtqFzAAAA
 AElFTkSuQmCC
 			</icon>
 		</appfolder>
+		<appfolder
+		addcaps="container"
+		capname="container"
+		id="476a8a6d-7ece-487e-a5b2-c5a4e797ea09"
+		isrooted="True"
+		name="Dropdown"
+		refimgid="8b8a01b9-a34e-426d-8257-a0e4f03c5977"
+		refpath="/container[@caption='dropdown']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/container[@caption='dropdown']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAABgUlEQVQ4T8WPvUsCcRjHb++F/oSGiMiiV4qWakiiqWyJGiK0cmxw
+kUhtMHqzTuWC0KKh2ZBqsTSHlt6oNkENBPWOoJZCKt++3c/fWRcVlg09x4fnhec+9xzD/DX6HBG0
+cXE02gXUWwUobDzqWB4Ndl7seVSLdZUlBgUroNZ6i1ZbFJ3zl+D8UeS+Xa71omLch1KNF2VizkP6
+EjWF1DX6E1TqztA+tYfBoRnouR24XC4w5v0IApE4rsIxXIfjMuR9DOfBKC5ETkMCfME7jEw7wbIs
+mI3je+Qji48PmX81I/PuyTUqWPcL0vtJMRciJe6kctIerZ0KHEdxmYAsFJIkqWCClX7BG/3FBURO
+LkhDqVmhgs3DSBGCDJTqJSrY8twUJxhboIJtTygnyCIjkc6d+D1kL4ve0TkqcO4G8JhI4iHxIvIs
+8iTVpP9MfvdNoJ49QMcwh2aVRWJZVudn77mpfxEtqlV0DejoBSQ4joPJZILRaPwRBoMBZrMZbreb
+Cv41XgFSqqerh1/qsAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
 		<basepath>
 		</basepath>
 	</rootfolder>

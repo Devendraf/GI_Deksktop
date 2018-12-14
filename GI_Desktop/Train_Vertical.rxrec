@@ -3304,7 +3304,7 @@ igB9FMooAfRTKKAH0UyigB9FMooAfRTKKAP/2Q==
 			<bindings>
 			</bindings>
 			<info
-			id="6ee57ec5-c3ee-4a2b-b298-8e61aa9f12f5"
+			id="476a8a6d-7ece-487e-a5b2-c5a4e797ea09"
 			sourcename="Recorder">
 				<element
 				capabilities=""
@@ -3522,6 +3522,86 @@ gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
 P//Z
 			</helperscreenshot>
 		</mouseitem>
+		<setvaluerecorditem
+		attrname="TagValue"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="88697c47-1769-49b8-97f5-5443f30c3f44">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2f67d5be-6035-4606-bf6c-ec6d87c3bc38"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, selecttag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="selecttag"
+				rect="285,210,89,38"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control inputMedium
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						select
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Male
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="required"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='www.goibibo.com']/body/div[1]/div/div[2]//form[@action='https://www.goibibo.com/trains/booking']/div[1]/div[2]//select
+				</path>
+			</info>
+			<AttributeValue>
+				Male
+			</AttributeValue>
+		</setvaluerecorditem>
 		<keysequenceitem
 		KeySequence="{LControlKey down}{Akey}{LControlKey up}{Back}devendra22"
 		duration="100ms"

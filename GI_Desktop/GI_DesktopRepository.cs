@@ -47,6 +47,7 @@ namespace GI_Desktop
         GI_DesktopRepositoryFolders.StateBankOfIndiaInternetBanking1AppFolder _statebankofindiainternetbanking1;
         GI_DesktopRepositoryFolders.TrainFolder _train;
         GI_DesktopRepositoryFolders.TrainTicketBookingIRCTCTicketBookiAppFolder1 _trainticketbookingirctcticketbooki;
+        GI_DesktopRepositoryFolders.DropdownAppFolder _dropdown;
 
         /// <summary>
         /// Gets the singleton class instance representing the GI_DesktopRepository element repository.
@@ -83,6 +84,7 @@ namespace GI_Desktop
             _statebankofindiainternetbanking1 = new GI_DesktopRepositoryFolders.StateBankOfIndiaInternetBanking1AppFolder(this);
             _train = new GI_DesktopRepositoryFolders.TrainFolder(this);
             _trainticketbookingirctcticketbooki = new GI_DesktopRepositoryFolders.TrainTicketBookingIRCTCTicketBookiAppFolder1(this);
+            _dropdown = new GI_DesktopRepositoryFolders.DropdownAppFolder(this);
         }
 
 #region Variables
@@ -279,6 +281,15 @@ namespace GI_Desktop
         public virtual GI_DesktopRepositoryFolders.TrainTicketBookingIRCTCTicketBookiAppFolder1 TrainTicketBookingIRCTCTicketBooki
         {
             get { return _trainticketbookingirctcticketbooki; }
+        }
+
+        /// <summary>
+        /// The Dropdown folder.
+        /// </summary>
+        [RepositoryFolder("476a8a6d-7ece-487e-a5b2-c5a4e797ea09")]
+        public virtual GI_DesktopRepositoryFolders.DropdownAppFolder Dropdown
+        {
+            get { return _dropdown; }
         }
     }
 
@@ -19033,6 +19044,46 @@ namespace GI_Desktop
                 get
                 {
                     return _pane1Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The DropdownAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("476a8a6d-7ece-487e-a5b2-c5a4e797ea09")]
+        public partial class DropdownAppFolder : RepoGenBaseFolder
+        {
+
+            /// <summary>
+            /// Creates a new Dropdown  folder.
+            /// </summary>
+            public DropdownAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Dropdown", "/container[@caption='dropdown']", parentFolder, 30000, null, true, "476a8a6d-7ece-487e-a5b2-c5a4e797ea09", "")
+            {
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("476a8a6d-7ece-487e-a5b2-c5a4e797ea09")]
+            public virtual Ranorex.Container Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("476a8a6d-7ece-487e-a5b2-c5a4e797ea09")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
                 }
             }
         }
